@@ -24,9 +24,9 @@ node_modules/
 *.tsbuildinfo
 next-env.d.ts
 
-# uploaded files (user uploads via admin — should not be in git)
-/public/images/
-/public/cv/
+# uploaded files — include in git for static hosting (Netlify/Vercel)
+# /public/images/
+# /public/cv/
 
 # OS
 .DS_Store
