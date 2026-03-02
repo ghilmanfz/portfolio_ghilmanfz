@@ -1,0 +1,48 @@
+{
+  "name": "Ghilman Faza",
+  "firstName": "Ghilman",
+  "logo": "/images/logo/blue-black-modern-letter-g-logo-design-1772428564747.png",
+  "role": "Full Stack Developer",
+  "roleSecondary": "ERP Systems Engineer",
+  "location": "Depok, West Java",
+  "locationFull": "Depok, West Java, Indonesia",
+  "badge": "Full Stack Developer // ERP Systems",
+  "heroTitle": [
+    "Creative",
+    "Full Stack."
+  ],
+  "heroDescription": "Information Systems graduate (GPA 3.95, Best Graduate) with 3+ years building web apps and ERP systems. Strong in Laravel, RESTful APIs, and SQL, delivering end-to-end solutions from requirements to deployment.",
+  "heroCTAPrimary": {
+    "label": "Start Project",
+    "href": "/contact"
+  },
+  "heroCTASecondary": {
+    "label": "Portfolio",
+    "href": "/work"
+  },
+  "aboutTitle": [
+    "Hey, I'm",
+    "Ghilman!"
+  ],
+  "aboutRole": "Full Stack Developer",
+  "aboutBio": "I'm a Full Stack Developer with a background in Information Systems (GPA 3.95, Best Graduate at Pamulang University). I build web applications and ERP systems using Laravel, RESTful APIs, MySQL, and React. I care about clean architecture, system performance, and solutions that move the needle, like cutting latency by 56% or improving process efficiency by up to 80%.",
+  "aboutBioSecondary": "// If you need an end-to-end system that is reliable, efficient, and built to scale, that is exactly what I do.",
+  "aboutPhoto": "/images/about/profile-linkedin-aghil-1-1772480106716.png",
+  "email": "ghilmanfz@gmail.com",
+  "phone": "0812-8910-2568",
+  "whatsapp": "628128910258",
+  "resumeUrl": "/cv/CV_GHILMAN FAZA_06022026_ENGLISH.pdf",
+  "experienceDescription": "3+ years building web applications and ERP systems across manufacturing, logistics, and education sectors.",
+  "social": {
+    "github": "https://github.com/ghilmanfz",
+    "linkedin": "https://linkedin.com/in/ghilman-faza-0b0a89213",
+    "twitter": "",
+    "instagram": "",
+    "dribbble": "",
+    "website": "https://ghilmanfaza.netlify.app"
+  },
+  "seoTitle": "Ghilman Faza | Full Stack Developer & ERP Systems",
+  "seoDescription": "Full Stack Developer with 3+ years of experience building web applications and ERP systems using Laravel, RESTful APIs, MySQL, and React. Best Graduate, Pamulang University.",
+  "availableForWork": true,
+  "availabilityText": "Available for new projects"
+}

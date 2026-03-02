@@ -1,0 +1,160 @@
+{
+  "techStack": [
+    {
+      "title": "Backend Development",
+      "description": "Server-side development with Laravel, RESTful APIs, and database-driven architectures powering production systems.",
+      "items": [
+        {
+          "name": "PHP",
+          "icon": "https://cdn.simpleicons.org/php"
+        },
+        {
+          "name": "Laravel",
+          "icon": "https://cdn.simpleicons.org/laravel"
+        },
+        {
+          "name": "Node.js",
+          "icon": "https://cdn.simpleicons.org/nodedotjs"
+        },
+        {
+          "name": "Express",
+          "icon": "https://cdn.simpleicons.org/express/white"
+        },
+        {
+          "name": "Redis",
+          "icon": "https://cdn.simpleicons.org/redis"
+        },
+        {
+          "name": "Postman",
+          "icon": "https://cdn.simpleicons.org/postman"
+        },
+        {
+          "name": "REST API",
+          "icon": "https://cdn.simpleicons.org/postman"
+        },
+        {
+          "name": "CodeIgniter",
+          "icon": "https://cdn.simpleicons.org/codeigniter"
+        }
+      ]
+    },
+    {
+      "title": "Database & Infrastructure",
+      "description": "Relational databases, query optimization, and infrastructure tools for reliable production systems.",
+      "items": [
+        {
+          "name": "MySQL",
+          "icon": "https://cdn.simpleicons.org/mysql"
+        },
+        {
+          "name": "Oracle",
+          "icon": "https://cdn.simpleicons.org/oracle"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "https://cdn.simpleicons.org/postgresql"
+        },
+        {
+          "name": "Docker",
+          "icon": "https://cdn.simpleicons.org/docker"
+        },
+        {
+          "name": "FileZilla",
+          "icon": "https://cdn.simpleicons.org/filezilla"
+        },
+        {
+          "name": "PuTTY",
+          "icon": "https://cdn.simpleicons.org/putty/white"
+        },
+        {
+          "name": "XAMPP",
+          "icon": "https://cdn.simpleicons.org/xampp"
+        },
+        {
+          "name": "Firebase",
+          "icon": "https://cdn.simpleicons.org/firebase"
+        }
+      ]
+    },
+    {
+      "title": "Frontend & Design",
+      "description": "Building responsive interfaces and designing user-friendly experiences across web and mobile platforms.",
+      "items": [
+        {
+          "name": "HTML5",
+          "icon": "https://cdn.simpleicons.org/html5"
+        },
+        {
+          "name": "CSS3",
+          "icon": "https://cdn.simpleicons.org/css3"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "https://cdn.simpleicons.org/javascript"
+        },
+        {
+          "name": "React",
+          "icon": "https://cdn.simpleicons.org/react"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "https://cdn.simpleicons.org/tailwindcss"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "https://cdn.simpleicons.org/bootstrap"
+        },
+        {
+          "name": "Figma",
+          "icon": "https://cdn.simpleicons.org/figma"
+        },
+        {
+          "name": "Canva",
+          "icon": "https://cdn.simpleicons.org/canva"
+        },
+        {
+          "name": "Adobe Photoshop",
+          "icon": "https://cdn.simpleicons.org/adobephotoshop"
+        }
+      ]
+    },
+    {
+      "title": "Tools & Automation",
+      "description": "Workflow automation, version control, and developer tools that power an efficient development process.",
+      "items": [
+        {
+          "name": "n8n",
+          "icon": "https://cdn.simpleicons.org/n8n"
+        },
+        {
+          "name": "GitHub",
+          "icon": "https://cdn.simpleicons.org/github/white"
+        },
+        {
+          "name": "SourceTree",
+          "icon": "https://cdn.simpleicons.org/sourcetree"
+        },
+        {
+          "name": "VS Code",
+          "icon": "https://cdn.simpleicons.org/visualstudiocode"
+        },
+        {
+          "name": "Google Sheets",
+          "icon": "https://cdn.simpleicons.org/googlesheets"
+        },
+        {
+          "name": "Meta Ads",
+          "icon": "https://cdn.simpleicons.org/meta"
+        },
+        {
+          "name": "G Analytics",
+          "icon": "https://cdn.simpleicons.org/googleanalytics"
+        },
+        {
+          "name": "ChatGPT",
+          "icon": "https://cdn.simpleicons.org/openai/white"
+        }
+      ]
+    }
+  ]
+}

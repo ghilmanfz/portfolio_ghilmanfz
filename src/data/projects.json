@@ -1,0 +1,391 @@
+[
+  {
+    "slug": "rfstore",
+    "title": "RFSTORE",
+    "subtitle": "Digital Products & Top-up Marketplace",
+    "description": "Automated 24/7 digital marketplace for game top-ups, mobile credits, e-wallets, premium app subscriptions, and SMM panel services. PSE Kominfo registered with instant processing and 100% refund guarantee.",
+    "year": "2025",
+    "featured": true,
+    "featuredOrder": 3,
+    "tags": [
+      "Full Stack Development",
+      "E-Commerce",
+      "Backend Development"
+    ],
+    "techIcons": [
+      "laravel",
+      "php",
+      "mysql",
+      "javascript"
+    ],
+    "color": "#2563eb",
+    "image": "/images/projects/screenshot-3-3-2026-13332-rfstore-relabify-com-1772476436446.jpeg",
+    "logo": "/images/projects/screenshot-2026-03-03-013409-1772476466781.png",
+    "problem": "Customers needed a reliable, automated platform to purchase digital products — game credits, pulsa, e-wallet top-ups, and premium subscriptions — instantly without manual processing.",
+    "solution": "Developed a fully automated digital marketplace with instant order processing, multi-category product support (gaming, pulsa, e-wallet, premium apps, SMM panel), order status tracking, and a reseller program. Registered with PSE Kominfo for legal compliance.",
+    "screenshots": [
+      {
+        "url": "/images/projects/screenshot-3-3-2026-21955-rfstore-relabify-com-1772479240138.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-2217-rfstore-relabify-com-1772479271616.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-22122-rfstore-relabify-com-1772479289599.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-22156-rfstore-relabify-com-1772479329866.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-22317-rfstore-relabify-com-1772479401572.jpeg",
+        "caption": "API Status Checker"
+      }
+    ],
+    "links": {
+      "live": "https://rfstore.relabify.com/",
+      "github": "https://github.com/ghilmanfz/rfstore"
+    }
+  },
+  {
+    "slug": "pos-electricity",
+    "title": "POS Electricity",
+    "subtitle": "Point of Sale System for Electrical Goods Store",
+    "description": "Laravel-based POS system tailored for an electrical goods retailer. Manages product catalog, sales transactions, stock levels, and reporting to streamline daily store operations.",
+    "year": "2024",
+    "featured": true,
+    "featuredOrder": 1,
+    "tags": [
+      "Full Stack Development",
+      "Backend Development",
+      "ERP System"
+    ],
+    "techIcons": [
+      "laravel",
+      "php",
+      "mysql",
+      "javascript"
+    ],
+    "color": "#b870ff",
+    "image": "/images/projects/2-1772477526566.png",
+    "logo": "/images/projects/screenshot-2026-03-03-015309-1772477605990.png",
+    "problem": "An electrical goods store relied on manual cashiering and stock tracking, resulting in transaction errors and inaccurate inventory records.",
+    "solution": "Built a dedicated POS system with Laravel covering product management, sales transaction processing, real-time stock monitoring, and sales reporting — enabling faster and more accurate daily operations.",
+    "screenshots": [],
+    "links": {
+      "live": "https://bobby.relabify.com/admin/login",
+      "github": "https://github.com/ghilmanfz/Point-Of-Sales-Electricity"
+    }
+  },
+  {
+    "slug": "rekrutpro",
+    "title": "RekrutPro",
+    "subtitle": "End-to-End Recruitment Management System",
+    "description": "Web-based HR recruitment platform built with Laravel 11. Manages the full hiring lifecycle from job postings and candidate applications to interview scheduling, offer negotiation, and audit logs.",
+    "year": "2025",
+    "featured": true,
+    "featuredOrder": 2,
+    "tags": [
+      "Full Stack Development",
+      "Backend Development",
+      "Web Design"
+    ],
+    "techIcons": [
+      "laravel",
+      "php",
+      "mysql",
+      "tailwindcss",
+      "alpinejs"
+    ],
+    "color": "#1a4ed8",
+    "image": "/images/projects/screenshot-2-3-2026-111228-rekrutpro-relabify-com-1772424771387.jpeg",
+    "logo": "/images/projects/screenshot-2026-03-02-111330-1772424855802.png",
+    "problem": "HR teams struggled to manage recruitment across multiple stages — posting jobs, tracking candidates, scheduling interviews, and handling offer negotiations — without a structured system.",
+    "solution": "Built RekrutPro with Laravel 11, Tailwind CSS, and Alpine.js, featuring role-based dashboards for Admin, HR, Interviewer, and Candidate. Includes offer management with salary negotiation flow, WhatsApp API integration via Fonnte, audit logging, and comprehensive testing.",
+    "screenshots": [
+      {
+        "url": "/images/projects/screenshot-2-3-2026-113237-rekrutpro-relabify-com-1772425992118.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-2-3-2026-113527-rekrutpro-relabify-com-1772426132072.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-2-3-2026-114530-rekrutpro-relabify-com-1772426752495.jpeg",
+        "caption": "More Customizable"
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-2443-rekrutpro-relabify-com-1772478288389.jpeg",
+        "caption": "Default Login Credentials:\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nSuper Admin: admin@rekrutpro.com / password\nHR:          hr@rekrutpro.com / password\nInterviewer: interviewer@rekrutpro.com / password\nCandidate 1: candidate1@example.com / password\nCandidate 2: candidate2@example.com / password"
+      }
+    ],
+    "links": {
+      "live": "https://rekrutpro.relabify.com/",
+      "github": "https://github.com/ghilmanfz/rekrutpro",
+      "demo": "https://rekrutpro.relabify.com/"
+    }
+  },
+  {
+    "slug": "nuca-beauty-skin",
+    "title": "NUCA Beauty Skin",
+    "subtitle": "Online Booking System for Beauty Clinic",
+    "description": "Laravel-based booking and reservation system for Nuca Beauty Skin clinic. Features treatment selection, doctor scheduling, deposit management, and WhatsApp notifications via Fonnte API.",
+    "year": "2025",
+    "featured": true,
+    "featuredOrder": 4,
+    "tags": [
+      "Full Stack Development",
+      "Web Design",
+      "API Development"
+    ],
+    "techIcons": [
+      "laravel",
+      "php",
+      "mysql",
+      "tailwindcss",
+      "vuedotjs"
+    ],
+    "color": "#EC4899",
+    "image": "/images/projects/screenshot-3-3-2026-13548-nuca-relabify-com-1772476565423.jpeg",
+    "logo": "/images/projects/screenshot-2026-03-03-013622-1772476597009.png",
+    "problem": "Nuca Beauty Skin clinic managed appointments manually, leading to double bookings, missed reminders, and poor customer experience.",
+    "solution": "Built a full booking system with Laravel 11, Vue 3, and Tailwind CSS. Customers can browse treatments, select doctors and time slots, and complete bookings with auto-approved or deposit-required flows. WhatsApp notifications via Fonnte API send booking confirmations and reminders. Collaborative project.",
+    "screenshots": [
+      {
+        "url": "/images/projects/screenshot-3-3-2026-2731-nuca-relabify-com-1772478467451.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-286-nuca-relabify-com-1772478504552.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-2810-nuca-relabify-com-1772478510724.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-2852-nuca-relabify-com-1772478543805.jpeg",
+        "caption": ""
+      }
+    ],
+    "links": {
+      "live": "https://nuca.relabify.com/",
+      "github": "https://github.com/fikri200401/nuca"
+    }
+  },
+  {
+    "slug": "virtual-tour-university",
+    "title": "Virtual Tour University",
+    "subtitle": "Interactive 360° Virtual Campus Tour",
+    "description": "Web-based virtual tour application for university campus exploration. Built with PHP, featuring interactive navigation, facility showcases, visitor tracking, and an admin dashboard.",
+    "year": "2024",
+    "featured": false,
+    "featuredOrder": null,
+    "tags": [
+      "Frontend Development",
+      "Full Stack Development",
+      "Web Design"
+    ],
+    "techIcons": [
+      "php",
+      "javascript",
+      "mysql",
+      "html5"
+    ],
+    "color": "#eab308",
+    "image": "/images/projects/screenshot-3-3-2026-1397-virtualtour-relabify-com-1772476770102.jpeg",
+    "logo": "/images/projects/screenshot-2026-03-03-013938-1772476792745.png",
+    "problem": "Prospective students could not explore the university campus remotely, limiting outreach and interest before physical visits.",
+    "solution": "Created an interactive virtual tour web app with PHP and MySQL, allowing users to navigate campus areas, view facilities, and explore key locations online. Includes an admin dashboard for managing tour content and tracking visitor activity.",
+    "screenshots": [
+      {
+        "url": "/images/projects/screenshot-3-3-2026-21355-virtualtour-relabify-com-1772478839674.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-21455-virtualtour-relabify-com-1772478901648.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-21538-virtualtour-relabify-com-1772478942099.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-21617-virtualtour-relabify-com-1772478981242.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-21638-virtualtour-relabify-com-1772479008202.jpeg",
+        "caption": "Default Login Credentials: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Role Admin: \nUsername : admin // admin "
+      }
+    ],
+    "links": {
+      "live": "https://virtualtour.relabify.com/",
+      "github": "https://github.com/ghilmanfz/Virtual-Tour-University"
+    }
+  },
+  {
+    "slug": "saung-nyonya-reservasi",
+    "title": "Saung Nyonya",
+    "subtitle": "Restaurant Reservation System with WhatsApp Notifications",
+    "description": "Web reservation system for Saung Nyonyah Ciledug, a traditional riverside restaurant. Handles saung selection, menu ordering, deposit management, and automated WhatsApp reminders.",
+    "year": "2025",
+    "featured": false,
+    "featuredOrder": null,
+    "tags": [
+      "Full Stack Development",
+      "Web Design",
+      "API Development"
+    ],
+    "techIcons": [
+      "laravel",
+      "php",
+      "mysql",
+      "tailwindcss",
+      "vuedotjs"
+    ],
+    "color": "#22c55e",
+    "image": "/images/projects/screenshot-3-3-2026-13715-saungnyonya-relabify-com-1772476688382.jpeg",
+    "logo": "/images/projects/screenshot-2026-03-03-013819-1772476716739.png",
+    "problem": "Saung Nyonyah Ciledug had no online reservation system, causing customers to book via phone calls and staff to manage schedules manually.",
+    "solution": "Developed a reservation platform with Laravel 11, Vue 3, and Tailwind CSS. Customers choose dates, time slots, saung capacity, and optional menu items. Auto-approval for near-term bookings, deposit required for advance reservations. WhatsApp notifications via Fonnte for confirmations and reminders. Collaborative project.",
+    "screenshots": [
+      {
+        "url": "/images/projects/screenshot-3-3-2026-2108-saungnyonya-relabify-com-1772478629792.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-2113-saungnyonya-relabify-com-1772478676254.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-21052-saungnyonya-relabify-com-1772478706492.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-21212-saungnyonya-relabify-com-1772478745182.jpeg",
+        "caption": ""
+      }
+    ],
+    "links": {
+      "live": "https://saungnyonya.relabify.com/",
+      "github": "https://github.com/fikri200401/Reservasi-dy"
+    }
+  },
+  {
+    "slug": "sindag-workshop",
+    "title": "Sindag",
+    "subtitle": "POS & Inventory System for Auto Parts Workshop",
+    "description": "Web-based trading information system built with CodeIgniter for Variasi Mobil auto parts shop. Features inventory management, POS cashiering, purchase orders, supplier management, and sales reports.",
+    "year": "2024",
+    "featured": false,
+    "featuredOrder": null,
+    "tags": [
+      "Full Stack Development",
+      "ERP System",
+      "Backend Development"
+    ],
+    "techIcons": [
+      "codeigniter",
+      "php",
+      "javascript",
+      "mysql"
+    ],
+    "color": "#00ffaa",
+    "image": "/images/projects/sindag-1772477941389.jpg",
+    "logo": "",
+    "problem": "Variasi Mobil, an auto parts workshop, managed inventory and sales manually without an integrated system, causing inefficiencies in stock tracking and transaction recording.",
+    "solution": "Developed Sindag with CodeIgniter covering dual roles (Admin & Cashier): product/category management, real-time stock control, purchase order creation and printing, supplier management, cashier transaction management, and exportable sales reports. Final project for Software Engineering course.",
+    "screenshots": [
+      {
+        "url": "/images/projects/sindag1-1772477979798.jpg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/sindag2-1772477985916.jpg",
+        "caption": ""
+      }
+    ],
+    "links": {
+      "live": "https://gafar.relabify.com/auth/login",
+      "github": "https://github.com/ghilmanfz/Poin-Of-Sales-and-inventory-for-Workshop"
+    }
+  },
+  {
+    "slug": "care-about-trash",
+    "title": "Care About Trash",
+    "subtitle": "Educational Mobile App for Waste Management",
+    "description": "Android educational app about waste management and environmental awareness, built with Kodular. Includes video lessons, AI chat, interactive games, quizzes, and practical waste management tools.",
+    "year": "2023",
+    "featured": false,
+    "featuredOrder": null,
+    "tags": [
+      "Mobile Development",
+      "Education",
+      "Android"
+    ],
+    "techIcons": [
+      "android"
+    ],
+    "color": "#00ccff",
+    "image": "/images/projects/e213ae5ca241a2e7ebeed3658f952e027bbce715c57fbb945219d2100f6b-1772476925282.webp",
+    "logo": "/images/projects/screenshot-2026-03-03-014232-1772476967698.png",
+    "problem": "Public awareness about proper waste sorting and environmental responsibility remained low, with no engaging mobile resource to educate users in an interactive way.",
+    "solution": "Built an Android app using Kodular with five core modules: Video Education for waste management topics, an AI Chat assistant, educational Games, Waste Management tools, and Quizzes — making environmental learning accessible and engaging.",
+    "screenshots": [
+      {
+        "url": "/images/projects/screenshot-2026-03-03-014341-1772477087735.png",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-2026-03-03-014351-1772477096559.png",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-2026-03-03-014410-1772477105769.png",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-2026-03-03-014419-1772477116956.png",
+        "caption": ""
+      }
+    ],
+    "links": {
+      "live": "https://care-about-trash.id.uptodown.com/android",
+      "github": "https://github.com/ghilmanfz/Care-About-Trash"
+    }
+  },
+  {
+    "slug": "invent-cashier",
+    "title": "InventCashier",
+    "subtitle": "Inventory & Point of Sale System",
+    "description": "Full-featured POS and inventory management system built with Laravel 10 and Filament v3. Supports product management, stock adjustments, orders, PDF reports, barcode printing, and role-based access.",
+    "year": "2025",
+    "featured": false,
+    "featuredOrder": 1,
+    "tags": [
+      "Full Stack Development",
+      "ERP System",
+      "Backend Development"
+    ],
+    "techIcons": [
+      "laravel",
+      "php",
+      "mysql"
+    ],
+    "color": "#1e00ff",
+    "image": "/images/projects/457558792-3f42b5ae-5b2e-4473-8d2c-4ef27a6ab85e-1772478133833.png",
+    "logo": "",
+    "problem": "Small to mid-sized businesses needed an affordable, integrated solution to manage inventory and sales transactions without relying on spreadsheets or disconnected tools.",
+    "solution": "Built a unified POS + inventory system using Laravel 10 and Filament v3, featuring product/SKU management, real-time stock tracking, order processing, PDF sales reports, barcode labels, customer management, and Filament Shield role-based access control.",
+    "screenshots": [],
+    "links": {
+      "live": "https://cashierghz.relabify.com/login",
+      "github": "https://github.com/ghilmanfz/InventCashier"
+    }
+  }
+]

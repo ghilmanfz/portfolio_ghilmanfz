@@ -1,0 +1,10 @@
+- This is a Next.js 14 portfolio website with TypeScript, Tailwind CSS, and Framer Motion.
+- Use the App Router pattern (`src/app/` directory).
+- All pages use "use client" directive for Framer Motion animations.
+- Data files are in `src/data/` — edit these to update content.
+- Components are in `src/components/` — each is a standalone section.
+- Use Tailwind CSS utility classes for styling.
+- Use Framer Motion for animations (`motion.div`, `AnimatePresence`).
+- Use Lucide React for icons.
+- Tech stack icons come from `cdn.simpleicons.org`.
+- Dark theme is the default and only theme.

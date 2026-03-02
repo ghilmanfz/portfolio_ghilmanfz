@@ -1,0 +1,34 @@
+{
+  "services": [
+    {
+      "title": "Full Stack Development",
+      "description": "I build complete web applications end-to-end, from database design and RESTful APIs in Laravel to frontend integration with React. Clean architecture, maintainable code, and production-ready delivery.",
+      "icon": "Code"
+    },
+    {
+      "title": "ERP System Development",
+      "description": "I design and build modular ERP systems covering procurement, assets, HR, and general operations. Built for real business efficiency, like reducing process overhead by up to 80% and handoffs by 40%.",
+      "icon": "Server"
+    },
+    {
+      "title": "API Development & Integration",
+      "description": "I build secure, optimized RESTful APIs with Laravel and Sanctum authentication. I integrate third-party services, handle role & permission (Spatie), and optimize SQL for low-latency, high-uptime systems.",
+      "icon": "Zap"
+    },
+    {
+      "title": "Web Design & Frontend",
+      "description": "I design and build responsive, user-friendly interfaces with HTML, JavaScript, and React. Every layout is intentional, clean, functional, and aligned with real user needs.",
+      "icon": "Palette"
+    },
+    {
+      "title": "SEO & Digital Marketing",
+      "description": "I implement on-page SEO from a technical foundation: clean markup, performance, and structured content. I have run digital campaigns achieving 20,000+ reach in the first 30 days from zero.",
+      "icon": "Search"
+    },
+    {
+      "title": "Automation & Workflow",
+      "description": "I automate repetitive business processes using n8n and other tools, connecting systems, eliminating manual steps, and reducing downtime. Practical automation that saves real hours.",
+      "icon": "FileText"
+    }
+  ]
+}
