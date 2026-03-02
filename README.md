@@ -82,6 +82,118 @@ src/
 - 📱 Fully responsive (mobile-first)
 - 🎨 Glass-morphism card effects
 - 🔍 Project filtering system
-- 📬 Contact form with service selection
+- 📬 Contact form → redirect ke WhatsApp + deteksi negara dari IP
 - 🏷️ Tech stack with categorized tabs
 - ⏱️ Experience timeline
+
+---
+
+## 📤 Cara Push ke GitHub
+
+### Pertama kali (repository baru / kosong)
+
+```bash
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ghilmanfz/portfolio_ghilmanfz.git
+git push -u origin main
+```
+
+---
+
+### Push biasa (setelah ada perubahan)
+
+```bash
+# 1. Cek file apa saja yang berubah
+git status
+
+# 2. Stage semua perubahan
+git add .
+
+# 3. Commit dengan pesan yang jelas
+git commit -m "deskripsi perubahan kamu"
+
+# 4. Push ke GitHub
+git push origin main
+```
+
+---
+
+### Push ke repository yang sudah ada isinya (pertama kali dari lokal baru)
+
+Situasi: repository di GitHub sudah ada isinya, tapi kamu belum pernah push dari komputer ini.
+
+```bash
+# 1. Pastikan remote sudah terset
+git remote -v
+
+# Kalau belum ada, tambahkan:
+git remote add origin https://github.com/ghilmanfz/portfolio_ghilmanfz.git
+
+# 2. Pull dulu untuk sinkron dengan GitHub (hindari konflik)
+git pull origin main --allow-unrelated-histories
+
+# 3. Selesaikan konflik jika ada, lalu:
+git add .
+git commit -m "merge with remote"
+
+# 4. Push
+git push origin main
+```
+
+---
+
+### ⚠️ Force push (ganti semua isi GitHub dengan versi lokal)
+
+> Hati-hati! Ini akan **menimpa** semua yang ada di GitHub.
+> Gunakan hanya kalau kamu yakin versi lokal adalah yang benar.
+
+```bash
+git push origin main --force
+```
+
+Atau kalau ingin mulai dari history bersih (tanpa history lama):
+
+```bash
+# Buat branch baru tanpa history
+git checkout --orphan clean-main
+
+# Stage dan commit semua file
+git add .
+git commit -m "clean commit"
+
+# Force push branch baru ke main di GitHub
+git push origin clean-main:main --force
+
+# Sekarang lokal kamu sudah di branch clean-main, rename ke main
+# (jalankan npm run dev dulu untuk cek, lalu push biasa berikutnya)
+```
+
+---
+
+### Upload gambar baru (setelah tambah gambar via Admin Panel)
+
+Karena gambar di-simpan di `public/images/`, setiap kali upload gambar baru lewat admin, perlu di-commit agar muncul di Netlify/produksi:
+
+```bash
+git add public/images public/cv
+git commit -m "chore: add new uploaded images"
+git push origin main
+```
+
+Setelah push, Netlify akan otomatis redeploy dan gambar akan muncul.
+
+---
+
+### Tips
+
+| Perintah | Fungsi |
+|---|---|
+| `git status` | Lihat file yang berubah |
+| `git log --oneline` | Lihat history commit |
+| `git diff` | Lihat detail perubahan |
+| `git restore .` | Batalkan semua perubahan yang belum di-commit |
+| `git remote -v` | Cek URL remote origin |
+
