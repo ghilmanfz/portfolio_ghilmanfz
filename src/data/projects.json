@@ -4,7 +4,7 @@
     "title": "RFSTORE",
     "subtitle": "Digital Products & Top-up Marketplace",
     "description": "Automated 24/7 digital marketplace for game top-ups, mobile credits, e-wallets, premium app subscriptions, and SMM panel services. PSE Kominfo registered with instant processing and 100% refund guarantee.",
-    "year": "2025",
+    "year": "2026",
     "featured": true,
     "featuredOrder": 3,
     "tags": [
@@ -55,7 +55,7 @@
     "title": "POS Electricity",
     "subtitle": "Point of Sale System for Electrical Goods Store",
     "description": "Laravel-based POS system tailored for an electrical goods retailer. Manages product catalog, sales transactions, stock levels, and reporting to streamline daily store operations.",
-    "year": "2024",
+    "year": "2025",
     "featured": true,
     "featuredOrder": 1,
     "tags": [
@@ -85,7 +85,7 @@
     "title": "RekrutPro",
     "subtitle": "End-to-End Recruitment Management System",
     "description": "Web-based HR recruitment platform built with Laravel 11. Manages the full hiring lifecycle from job postings and candidate applications to interview scheduling, offer negotiation, and audit logs.",
-    "year": "2025",
+    "year": "2026",
     "featured": true,
     "featuredOrder": 2,
     "tags": [
@@ -134,7 +134,7 @@
     "title": "NUCA Beauty Skin",
     "subtitle": "Online Booking System for Beauty Clinic",
     "description": "Laravel-based booking and reservation system for Nuca Beauty Skin clinic. Features treatment selection, doctor scheduling, deposit management, and WhatsApp notifications via Fonnte API.",
-    "year": "2025",
+    "year": "2026",
     "featured": true,
     "featuredOrder": 4,
     "tags": [
@@ -182,7 +182,7 @@
     "title": "Virtual Tour University",
     "subtitle": "Interactive 360° Virtual Campus Tour",
     "description": "Web-based virtual tour application for university campus exploration. Built with PHP, featuring interactive navigation, facility showcases, visitor tracking, and an admin dashboard.",
-    "year": "2024",
+    "year": "2025",
     "featured": false,
     "featuredOrder": null,
     "tags": [
@@ -233,7 +233,7 @@
     "title": "Saung Nyonya",
     "subtitle": "Restaurant Reservation System with WhatsApp Notifications",
     "description": "Web reservation system for Saung Nyonyah Ciledug, a traditional riverside restaurant. Handles saung selection, menu ordering, deposit management, and automated WhatsApp reminders.",
-    "year": "2025",
+    "year": "2026",
     "featured": false,
     "featuredOrder": null,
     "tags": [
@@ -281,7 +281,7 @@
     "title": "Sindag",
     "subtitle": "POS & Inventory System for Auto Parts Workshop",
     "description": "Web-based trading information system built with CodeIgniter for Variasi Mobil auto parts shop. Features inventory management, POS cashiering, purchase orders, supplier management, and sales reports.",
-    "year": "2024",
+    "year": "2025",
     "featured": false,
     "featuredOrder": null,
     "tags": [
