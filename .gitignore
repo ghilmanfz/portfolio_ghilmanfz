@@ -27,8 +27,7 @@ next-env.d.ts
 # uploaded files — include in git for static hosting (Netlify/Vercel)
 # /public/images/
 # /public/cv/
-# Video files are large — exclude from git (host externally or use YouTube/Vimeo)
-/public/videos/
+# /public/videos/
 
 # OS
 .DS_Store
