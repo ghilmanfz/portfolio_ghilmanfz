@@ -11,12 +11,13 @@ import {
 // ─────────────────────────────────────────────────────────────
 interface ProjectLinks { live?: string; github?: string; figma?: string; demo?: string; }
 interface Screenshot { url: string; caption: string; }
+interface Video { url: string; caption: string; }
 interface Project {
   slug: string; title: string; subtitle: string; description: string;
   year: string; featured: boolean; featuredOrder: number | null;
   tags: string[]; techIcons: string[]; color: string;
   image: string; logo: string; problem: string; solution: string;
-  screenshots: Screenshot[]; links: ProjectLinks;
+  screenshots: Screenshot[]; videos: Video[]; links: ProjectLinks;
 }
 interface ExperienceItem { title: string; company: string; type: string; period: string; highlights: string[]; }
 interface CoreExpertise { title: string; skills: string[]; }
@@ -38,7 +39,7 @@ interface SiteData {
 const EMPTY_PROJECT: Project = {
   slug: "", title: "", subtitle: "", description: "", year: String(new Date().getFullYear()),
   featured: false, featuredOrder: null, tags: [], techIcons: [], color: "#6366F1",
-  image: "", logo: "", problem: "", solution: "", screenshots: [],
+  image: "", logo: "", problem: "", solution: "", screenshots: [], videos: [],
   links: { live: "", github: "", figma: "", demo: "" },
 };
 
@@ -215,6 +216,116 @@ function ImageUpload({
           {error && <p className="text-[11px] font-mono" style={{ color: "#f87171" }}>{error}</p>}
         </div>
       </div>
+    </div>
+  );
+}
+
+function VideoUpload({
+  value, onChange,
+}: {
+  value: string; onChange: (url: string) => void;
+}) {
+  const [uploading, setUploading] = useState(false);
+  const [progress, setProgress] = useState(0);
+  const [error, setError] = useState("");
+  const inputRef = React.useRef<HTMLInputElement>(null);
+
+  const handleFile = async (file: File) => {
+    setError("");
+    setProgress(0);
+    setUploading(true);
+
+    // Simulate progress via XHR for upload feedback
+    const fd = new FormData();
+    fd.append("file", file);
+
+    try {
+      await new Promise<void>((resolve, reject) => {
+        const xhr = new XMLHttpRequest();
+        xhr.open("POST", "/api/upload-video");
+
+        // Send auth cookie automatically (same-origin)
+        xhr.withCredentials = true;
+
+        xhr.upload.onprogress = (e) => {
+          if (e.lengthComputable) {
+            setProgress(Math.round((e.loaded / e.total) * 100));
+          }
+        };
+
+        xhr.onload = () => {
+          if (xhr.status === 200) {
+            const json = JSON.parse(xhr.responseText);
+            onChange(json.url);
+            resolve();
+          } else {
+            let msg = "Upload gagal";
+            try { msg = JSON.parse(xhr.responseText).error ?? msg; } catch {}
+            setError(msg);
+            reject();
+          }
+        };
+
+        xhr.onerror = () => { setError("Upload gagal"); reject(); };
+        xhr.send(fd);
+      });
+    } catch {}
+
+    setUploading(false);
+    setProgress(0);
+  };
+
+  const isUrl = value.startsWith("http");
+
+  return (
+    <div className="flex flex-col gap-2">
+      <div className="flex gap-2">
+        <input
+          type="text"
+          className="flex-1 px-3 py-2 rounded-lg text-sm font-mono outline-none"
+          style={fieldStyle}
+          value={value}
+          onChange={(e) => onChange(e.target.value)}
+          placeholder="https://youtube.com/watch?v=... atau /videos/demo.mp4"
+        />
+        <input
+          ref={inputRef}
+          type="file"
+          accept="video/mp4,video/webm,video/ogg,video/quicktime"
+          className="hidden"
+          onChange={(e) => { const f = e.target.files?.[0]; if (f) handleFile(f); e.target.value = ""; }}
+        />
+        <button
+          type="button"
+          onClick={() => inputRef.current?.click()}
+          disabled={uploading}
+          className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-[11px] font-bold uppercase tracking-widest flex-shrink-0 disabled:opacity-50 transition-opacity"
+          style={{ background: "rgba(16,185,129,0.12)", color: "#6ee7b7", border: "1px solid rgba(16,185,129,0.2)" }}
+        >
+          {uploading ? <Loader2 size={11} className="animate-spin" /> : <Plus size={11} />}
+          {uploading ? `${progress}%` : "Upload"}
+        </button>
+      </div>
+      {/* Progress bar */}
+      {uploading && (
+        <div className="w-full rounded-full overflow-hidden" style={{ height: 3, background: "rgba(255,255,255,0.08)" }}>
+          <div
+            className="h-full rounded-full transition-all duration-200"
+            style={{ width: `${progress}%`, background: "#6ee7b7" }}
+          />
+        </div>
+      )}
+      {/* Video preview (only for uploaded files, not YouTube/Vimeo) */}
+      {value && !isUrl && (
+        <video
+          src={value}
+          className="w-full rounded-lg mt-1"
+          style={{ maxHeight: 140, background: "#000" }}
+          controls
+          preload="metadata"
+        />
+      )}
+      {error && <p className="text-[11px] font-mono" style={{ color: "#f87171" }}>{error}</p>}
     </div>
   );
 }
@@ -845,6 +956,70 @@ function ProjectForm({ initial, onSave, onCancel }: { initial: Project; onSave: 
               area
               rows={2}
               placeholder="Describe what this screenshot shows..."
+            />
+          </div>
+        ))}
+      </div>
+
+      {/* Videos */}
+      <div className="flex flex-col gap-3">
+        <div className="flex items-center justify-between">
+          <label className={labelCls} style={labelStyle}>Videos (optional)</label>
+          <button
+            type="button"
+            onClick={() => set("videos", [...(p.videos ?? []), { url: "", caption: "" }])}
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[11px] font-bold uppercase tracking-widest"
+            style={{ background: "rgba(16,185,129,0.12)", color: "#6ee7b7", border: "1px solid rgba(16,185,129,0.2)" }}
+          >
+            <Plus size={12} /> Add Video
+          </button>
+        </div>
+        {(p.videos ?? []).length === 0 && (
+          <p className="text-[11px] font-mono" style={{ color: "rgba(255,255,255,0.25)" }}>
+            No videos added yet. Paste a YouTube link, Vimeo link, or direct video file URL (.mp4).
+          </p>
+        )}
+        {(p.videos ?? []).map((vid, idx) => (
+          <div
+            key={idx}
+            className="rounded-xl p-4 flex flex-col gap-3"
+            style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.08)" }}
+          >
+            <div className="flex items-center justify-between">
+              <span className="text-[11px] font-mono font-bold" style={{ color: "rgba(255,255,255,0.4)" }}>
+                Video {idx + 1}
+              </span>
+              <button
+                type="button"
+                onClick={() => set("videos", (p.videos ?? []).filter((_, i) => i !== idx))}
+                className="p-1 rounded-lg transition-colors"
+                style={{ color: "rgba(255,80,80,0.7)" }}
+              >
+                <Trash2 size={13} />
+              </button>
+            </div>
+            <div className="flex flex-col gap-1.5">
+              <label className={labelCls} style={labelStyle}>Video URL atau Upload File</label>
+              <VideoUpload
+                value={vid.url}
+                onChange={(url) => {
+                  const next = [...(p.videos ?? [])];
+                  next[idx] = { ...next[idx], url };
+                  set("videos", next);
+                }}
+              />
+            </div>
+            <Input
+              label="Caption / Description (opsional)"
+              value={vid.caption}
+              onChange={(caption) => {
+                const next = [...(p.videos ?? [])];
+                next[idx] = { ...next[idx], caption };
+                set("videos", next);
+              }}
+              area
+              rows={2}
+              placeholder="Jelaskan apa yang ditampilkan video ini..."
             />
           </div>
         ))}

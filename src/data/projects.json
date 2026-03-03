@@ -48,14 +48,15 @@
     "links": {
       "live": "https://rfstore.relabify.com/",
       "github": "https://github.com/ghilmanfz/rfstore"
-    }
+    },
+    "videos": []
   },
   {
     "slug": "pos-electricity",
     "title": "POS Electricity",
     "subtitle": "Point of Sale System for Electrical Goods Store",
     "description": "Laravel-based POS system tailored for an electrical goods retailer. Manages product catalog, sales transactions, stock levels, and reporting to streamline daily store operations.",
-    "year": "2025",
+    "year": "2026",
     "featured": true,
     "featuredOrder": 1,
     "tags": [
@@ -182,7 +183,7 @@
     "title": "Virtual Tour University",
     "subtitle": "Interactive 360° Virtual Campus Tour",
     "description": "Web-based virtual tour application for university campus exploration. Built with PHP, featuring interactive navigation, facility showcases, visitor tracking, and an admin dashboard.",
-    "year": "2025",
+    "year": "2026",
     "featured": false,
     "featuredOrder": null,
     "tags": [
@@ -386,6 +387,339 @@
     "links": {
       "live": "https://cashierghz.relabify.com/login",
       "github": "https://github.com/ghilmanfz/InventCashier"
+    }
+  },
+  {
+    "slug": "ai",
+    "title": "AI Content Engine",
+    "subtitle": "AI Prompt Engineering for Automated Content & Video Production",
+    "description": "AI-powered content automation system that generates scripts, marketing copy, social media posts, thumbnails, and short-form videos using structured prompt engineering. Integrated with automation workflows for scalable content production.",
+    "year": "2025",
+    "featured": false,
+    "featuredOrder": null,
+    "tags": [],
+    "techIcons": [],
+    "color": "#00e1ff",
+    "image": "/images/projects/screenshot-2026-03-03-225525-1772553351193.png",
+    "logo": "",
+    "problem": "Content creation required high time investment for ideation, scripting, editing, and publishing. Manual workflows limited scalability and consistency across platforms (Instagram, TikTok, YouTube Shorts).",
+    "solution": "Designed a structured AI prompt framework and automation workflow to generate high-quality scripts, captions, hooks, and storyboard concepts. Integrated AI tools with automation (n8n) to streamline content creation, approval, and publishing processes.",
+    "screenshots": [],
+    "videos": [
+      {
+        "url": "/videos/1107-1772552522302.mp4",
+        "caption": ""
+      },
+      {
+        "url": "/videos/a-young-man-202511140329-5bzrf-1772552529102.mp4",
+        "caption": ""
+      },
+      {
+        "url": "/videos/a-young-man-202511140949-e6svz-1772552534587.mp4",
+        "caption": ""
+      }
+    ],
+    "links": {
+      "live": "",
+      "github": "",
+      "figma": "",
+      "demo": ""
+    }
+  },
+  {
+    "slug": "chela-tama-corporate-website",
+    "title": "Chela Tama Corporate Website",
+    "subtitle": "Corporate Profile & SEO Optimization with WordPress",
+    "description": "Developed and deployed a corporate profile website using WordPress with SEO optimization, performance tuning, and business-oriented structure to support brand credibility and digital campaigns.",
+    "year": "2025",
+    "featured": false,
+    "featuredOrder": null,
+    "tags": [],
+    "techIcons": [
+      "Wordpress",
+      "Elementor"
+    ],
+    "color": "#ef130e",
+    "image": "/images/projects/screenshot-3-3-2026-23157-chelatama-com-1772553747861.jpeg",
+    "logo": "/images/projects/screenshot-2026-03-03-230701-1772554050758.png",
+    "problem": "The company required a professional online presence to increase credibility, improve search visibility, and support digital marketing campaigns. Existing digital assets were not optimized for performance, SEO, or conversion.",
+    "solution": "Built a fully responsive WordPress website tailored to corporate branding needs. Implemented structured page hierarchy, on-page SEO, performance optimization, and lead-oriented content strategy to support business growth.",
+    "screenshots": [
+      {
+        "url": "/images/projects/screenshot-3-3-2026-2332-chelatama-com-1772553822955.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-23328-chelatama-com-1772553827222.jpeg",
+        "caption": ""
+      }
+    ],
+    "videos": [],
+    "links": {
+      "live": "https://chelatama.com/",
+      "github": "",
+      "figma": "",
+      "demo": "https://chelatama.com/"
+    }
+  },
+  {
+    "slug": "meta-ads-performance-campaign",
+    "title": "Meta Ads Performance Campaign",
+    "subtitle": "From Zero to Conversion – 30-Day Paid Ads Campaign",
+    "description": "Planned, executed, and optimized a Meta Ads campaign from scratch to generate conversations and brand visibility within 30 days. Built complete campaign structure including targeting, creatives, budgeting, and performance tracking.",
+    "year": "2025",
+    "featured": false,
+    "featuredOrder": null,
+    "tags": [
+      "Meta",
+      "SEO",
+      "Digital Marketing"
+    ],
+    "techIcons": [
+      "Meta"
+    ],
+    "color": "#64a8f2",
+    "image": "/images/projects/screenshot-2026-03-04-043543-1772573756352.png",
+    "logo": "",
+    "problem": "The business had no structured paid advertising system and needed to generate qualified leads, increase brand awareness, and drive WhatsApp conversations within a limited monthly budget.",
+    "solution": "Developed a full-funnel Meta Ads strategy starting from zero setup. Created audience targeting, structured campaign segmentation, optimized creatives, and continuously monitored cost-per-result to maximize performance within 30 days.",
+    "screenshots": [
+      {
+        "url": "/images/projects/screenshot-2026-03-04-043630-1772573805676.png",
+        "caption": "Campaign objective: \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nMessage / Conversation campaign,\nCustom audience targeting & interest stacking,\nBudget optimization (Rp 80.000/day),\nCreative testing (multiple ad variants),\nPerformance tracking & reporting,\nConversion-focused copywriting and\nContinuous A/B testing & scaling strategy"
+      }
+    ],
+    "videos": [],
+    "links": {
+      "live": "",
+      "github": "",
+      "figma": "",
+      "demo": ""
+    }
+  },
+  {
+    "slug": "digital-content-creative-campaign",
+    "title": "Digital Content & Creative Campaign",
+    "subtitle": "Content Strategy, Graphic Design & Short-Form Video Editing",
+    "description": "Developed and executed a full Instagram content strategy including graphic design, short-form video editing, copywriting, and campaign creatives. Built content system from zero to support brand awareness and lead generation within 30 days.",
+    "year": "2025",
+    "featured": false,
+    "featuredOrder": null,
+    "tags": [
+      "Digital Content",
+      "SEO",
+      "Creative",
+      "Campaign"
+    ],
+    "techIcons": [
+      "Canva",
+      "Capcut",
+      "Adobe",
+      "Meta"
+    ],
+    "color": "#6366F1",
+    "image": "/images/projects/screenshot-4-3-2026-5249-www-instagram-com-1772576963105.jpeg",
+    "logo": "",
+    "problem": "The brand lacked consistent visual identity, structured content planning, and engaging creatives to attract audience attention and generate leads via social media.\n\nContent was inconsistent and not optimized for engagement or conversion.",
+    "solution": "Designed a structured content system combining educational posts, promotional campaigns, product showcase videos, and high-converting copywriting.\n\nHandled end-to-end creative process:\n\nConcept ideation,\n\nScript writing,\n\nVisual layout design,\n\nShort-form video editing,\n\nCaption & hook optimization, and\n\nContent calendar planning",
+    "screenshots": [],
+    "videos": [
+      {
+        "url": "https://www.instagram.com/reel/DSB02JSgW_0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "caption": ""
+      },
+      {
+        "url": "https://www.instagram.com/reel/DSJ6ZV1Eaqc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "caption": ""
+      },
+      {
+        "url": "https://www.instagram.com/reel/DPNqsD1ET6c/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "caption": ""
+      },
+      {
+        "url": "https://www.tiktok.com/@chelatama_/video/7538342722608844039?is_from_webapp=1&sender_device=pc&web_id=7385633343772509697",
+        "caption": ""
+      },
+      {
+        "url": "https://www.instagram.com/reel/DQIuBJ1EUsj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "caption": ""
+      }
+    ],
+    "links": {
+      "live": "https://www.instagram.com/pakarin.id/",
+      "github": "",
+      "figma": "",
+      "demo": "https://www.instagram.com/pakarin.id/"
+    }
+  },
+  {
+    "slug": "hris-relabify",
+    "title": "HRIS Yayasan Cinta Dhuafa",
+    "subtitle": "Human Resource Information System",
+    "description": "Comprehensive web-based HRIS platform for managing employee data, attendance, payroll, leave requests, and organizational structure. Built to streamline HR operations for modern companies.",
+    "year": "2026",
+    "featured": false,
+    "featuredOrder": null,
+    "tags": [
+      "Full Stack Development",
+      "Backend Development",
+      "ERP System"
+    ],
+    "techIcons": [
+      "laravel",
+      "php",
+      "mysql",
+      "tailwindcss",
+      "javascript"
+    ],
+    "color": "#24b28e",
+    "image": "/images/projects/screenshot-4-3-2026-5551-hris-relabify-com-1772578549928.jpeg",
+    "logo": "",
+    "problem": "Companies struggled to manage HR processes — employee records, attendance, payroll, and leave — using disconnected tools or manual spreadsheets, leading to errors and inefficiency.",
+    "solution": "Built a unified HRIS platform with Laravel covering employee management, attendance tracking, payroll calculation, leave request workflows, and organizational chart. Role-based access for HR admins and employees.",
+    "screenshots": [],
+    "videos": [],
+    "links": {
+      "live": "https://hris.relabify.com/",
+      "github": "",
+      "figma": "",
+      "demo": ""
+    }
+  },
+  {
+    "slug": "work-order-relabify",
+    "title": " Perfect Wedding Order",
+    "subtitle": "Field Service of Wedding Order",
+    "description": "a program to Order Wedding Organizer",
+    "year": "2026",
+    "featured": false,
+    "featuredOrder": null,
+    "tags": [
+      "Full Stack Development",
+      "Backend Development",
+      "ERP System"
+    ],
+    "techIcons": [
+      "laravel",
+      "php",
+      "mysql",
+      "tailwindcss",
+      "javascript"
+    ],
+    "color": "#bf70ff",
+    "image": "/images/projects/screenshot-4-3-2026-55738-wo-relabify-com-1772578663894.jpeg",
+    "logo": "/images/projects/screenshot-2026-03-04-060031-1772578847799.png",
+    "problem": "Costumer hard to make order and choice of which one packet they need",
+    "solution": "in this program, help costumer to choice the best packet they need, and its raise up for marketing and reach more costumer",
+    "screenshots": [],
+    "videos": [],
+    "links": {
+      "live": "http://wo.relabify.com/",
+      "github": "",
+      "figma": "",
+      "demo": "http://wo.relabify.com/"
+    }
+  },
+  {
+    "slug": "efin-relabify",
+    "title": "eFIN",
+    "subtitle": "Financial Management & Reporting System",
+    "description": "Web-based financial management platform for tracking income, expenses, budgets, and generating financial reports. Built to give businesses clear visibility into their financial health.",
+    "year": "2026",
+    "featured": false,
+    "featuredOrder": null,
+    "tags": [
+      "Full Stack Development",
+      "Backend Development",
+      "ERP System"
+    ],
+    "techIcons": [
+      "laravel",
+      "php",
+      "mysql",
+      "tailwindcss",
+      "javascript"
+    ],
+    "color": "#b71010",
+    "image": "/images/projects/screenshot-4-3-2026-6113-efin-relabify-com-1772578895039.jpeg",
+    "logo": "",
+    "problem": "Businesses managed finances through manual bookkeeping or scattered spreadsheets, making it difficult to track cash flow, monitor budgets, and generate accurate financial reports.",
+    "solution": "Built a financial management system with Laravel featuring income and expense tracking, budget planning, transaction categorization, and automated financial report generation — giving finance teams real-time visibility into company finances.",
+    "screenshots": [],
+    "videos": [],
+    "links": {
+      "live": "https://efin.relabify.com/",
+      "github": "",
+      "figma": "",
+      "demo": ""
+    }
+  },
+  {
+    "slug": "gudang-relabify",
+    "title": "Gudang",
+    "subtitle": "Warehouse & Inventory Management System",
+    "description": "Web-based warehouse management system for tracking stock levels, item movements, incoming and outgoing goods, and inventory reports. Designed to eliminate manual stock management errors.",
+    "year": "2025",
+    "featured": false,
+    "featuredOrder": null,
+    "tags": [
+      "Full Stack Development",
+      "Backend Development",
+      "ERP System"
+    ],
+    "techIcons": [
+      "laravel",
+      "php",
+      "mysql",
+      "tailwindcss",
+      "javascript"
+    ],
+    "color": "#207fa7",
+    "image": "/images/projects/screenshot-4-3-2026-6212-gudang-relabify-com-1772578939110.jpeg",
+    "logo": "",
+    "problem": "Warehouse teams relied on manual stock records, leading to inventory discrepancies, lost items, and inability to trace stock movements accurately.",
+    "solution": "Developed a warehouse management system with Laravel covering item catalog, stock-in/stock-out transactions, location tracking, low-stock alerts, and inventory reporting — providing full traceability of all goods movements.",
+    "screenshots": [],
+    "videos": [],
+    "links": {
+      "live": "https://gudang.relabify.com/",
+      "github": "",
+      "figma": "",
+      "demo": ""
+    }
+  },
+  {
+    "slug": " perfect-wedding-order",
+    "title": " Perfect Wedding Order",
+    "subtitle": "Field Service of Wedding Order",
+    "description": "",
+    "year": "2025",
+    "featured": false,
+    "featuredOrder": null,
+    "tags": [
+      "Full Stack Development",
+      "Backend Development",
+      "ERP System"
+    ],
+    "techIcons": [
+      "laravel",
+      "php",
+      "mysql",
+      "tailwindcss",
+      "javascript"
+    ],
+    "color": "#bf70ff",
+    "image": "/images/projects/screenshot-4-3-2026-55738-wo-relabify-com-1772578663894.jpeg",
+    "logo": "",
+    "problem": "",
+    "solution": "",
+    "screenshots": [],
+    "videos": [],
+    "links": {
+      "live": "http://wo.relabify.com/",
+      "github": "",
+      "figma": "",
+      "demo": ""
     }
   }
 ]
