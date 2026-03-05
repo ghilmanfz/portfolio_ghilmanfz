@@ -432,7 +432,7 @@
     "subtitle": "Corporate Profile & SEO Optimization with WordPress",
     "description": "Developed and deployed a corporate profile website using WordPress with SEO optimization, performance tuning, and business-oriented structure to support brand credibility and digital campaigns.",
     "year": "2025",
-    "featured": false,
+    "featured": true,
     "featuredOrder": null,
     "tags": [],
     "techIcons": [
