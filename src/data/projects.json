@@ -278,6 +278,67 @@
     }
   },
   {
+    "slug": "hrispro",
+    "title": "HRISPro",
+    "subtitle": "Human Resource Information System",
+    "description": "Web-based HRIS built with Laravel 11 and Filament 3 for managing employee attendance, payroll, leave, and work schedules. Features GPS-based attendance with face recognition, automated payroll calculation, real-time notifications, and role-based access control.\n(still in development, some features may not be accessible)",
+    "year": "2026",
+    "featured": true,
+    "featuredOrder": 5,
+    "tags": [
+      "Full Stack Development",
+      "Backend Development",
+      "ERP System"
+    ],
+    "techIcons": [
+      "laravel",
+      "php",
+      "mysql",
+      "tailwindcss",
+      "alpinejs"
+    ],
+    "color": "#2464ea",
+    "image": "/images/projects/screenshot-7-3-2026-25928-hrispro-relabify-com-1772827173136.jpeg",
+    "logo": "/images/projects/screenshot-2026-03-07-025827-1772827130924.png",
+    "problem": "Companies struggled to manage employee attendance, payroll, leave requests, and work schedules manually, leading to errors, inefficiencies, and lack of transparency across HR operations.",
+    "solution": "Built HRISPro with Laravel 11 and Filament 3, featuring GPS-based clock-in/out with face recognition verification, automated payroll with allowances and deductions, leave management with digital approval, shift scheduling, Excel export/import, real-time notifications, and role-based access (Super Admin, HR Manager, Employee).",
+    "screenshots": [
+      {
+        "url": "/images/projects/screenshot-7-3-2026-25957-hrispro-relabify-com-1772827202971.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-7-3-2026-3011-hrispro-relabify-com-1772827218094.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-7-3-2026-3140-hrispro-relabify-com-1772827312196.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-7-3-2026-3221-hrispro-relabify-com-1772827349537.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-7-3-2026-3247-hrispro-relabify-com-1772827374383.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-7-3-2026-3328-hrispro-relabify-com-1772827419759.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-7-3-2026-3348-hrispro-relabify-com-1772827435410.jpeg",
+        "caption": "Default Login Credentials:\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\njust click on the account on the login page"
+      }
+    ],
+    "videos": [],
+    "links": {
+      "live": "https://hrispro.relabify.com/",
+      "github": "https://github.com/ghilmanfz/hrispro"
+    }
+  },
+  {
     "slug": "sindag-workshop",
     "title": "Sindag",
     "subtitle": "POS & Inventory System for Auto Parts Workshop",
@@ -433,7 +494,7 @@
     "description": "Developed and deployed a corporate profile website using WordPress with SEO optimization, performance tuning, and business-oriented structure to support brand credibility and digital campaigns.",
     "year": "2025",
     "featured": true,
-    "featuredOrder": null,
+    "featuredOrder": 6,
     "tags": [],
     "techIcons": [
       "Wordpress",
