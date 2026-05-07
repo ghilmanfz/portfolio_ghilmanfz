@@ -782,5 +782,34 @@
       "figma": "",
       "demo": ""
     }
+  },
+  {
+    "slug": "project-management-automation",
+    "title": "Project Management Automation",
+    "subtitle": "",
+    "description": "",
+    "year": "2026",
+    "featured": true,
+    "featuredOrder": 6,
+    "tags": [],
+    "techIcons": [],
+    "color": "#0004ff",
+    "image": "/images/projects/screenshot-2026-05-07-102355-1778124258461.png",
+    "logo": "/images/projects/screenshot-2026-05-07-102355-1778124272149.png",
+    "problem": "",
+    "solution": "",
+    "screenshots": [],
+    "videos": [
+      {
+        "url": "/videos/whatsapp-video-2026-05-07-at-10-16-13-1778124195941.mp4",
+        "caption": ""
+      }
+    ],
+    "links": {
+      "live": "",
+      "github": "",
+      "figma": "",
+      "demo": ""
+    }
   }
 ]
