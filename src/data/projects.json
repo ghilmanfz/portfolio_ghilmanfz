@@ -787,17 +787,26 @@
     "slug": "project-management-automation",
     "title": "Project Management Automation",
     "subtitle": "",
-    "description": "",
+    "description": "This program is a WhatsApp-based project management bot that uses Google Sheets as the main database, Google Apps Script as the automation engine, Fonnte as the WhatsApp API gateway, and OpenRouter as a lightweight AI parser. It manages projects, subtasks, payments, links, users, confirmations, audit logs, settings, and daily reports. The system lets teams operate from WhatsApp while keeping structured project data in Google Sheets.",
     "year": "2026",
     "featured": true,
     "featuredOrder": 6,
-    "tags": [],
-    "techIcons": [],
+    "tags": [
+      "Fonnte webhook",
+      "Automation"
+    ],
+    "techIcons": [
+      "Google Apps Script",
+      "Fonnte",
+      "Google Sheets",
+      "WhatsApp API Key",
+      "Openrouter"
+    ],
     "color": "#0004ff",
     "image": "/images/projects/screenshot-2026-05-07-102355-1778124258461.png",
     "logo": "/images/projects/screenshot-2026-05-07-102355-1778124272149.png",
-    "problem": "",
-    "solution": "",
+    "problem": "The project workflow is currently scattered across WhatsApp messages, files, links, payment notes, and manual follow-ups. This makes it difficult to track project status, task ownership, deadlines, revisions, payments, and client responses consistently. Important updates can be missed because they are mixed with informal chat conversations.",
+    "solution": "The system turns WhatsApp into an operational input channel connected to a centralized Google Sheets database. Fonnte receives WhatsApp messages and forwards them to Google Apps Script, which processes commands, updates project data, sends replies, logs activity, and generates reports. For natural-language updates, OpenRouter helps parse the message into a draft update that must be confirmed by an admin before changes are applied.",
     "screenshots": [],
     "videos": [
       {
@@ -806,10 +815,10 @@
       }
     ],
     "links": {
-      "live": "",
-      "github": "",
-      "figma": "",
-      "demo": ""
+      "live": "-",
+      "github": "-",
+      "figma": "-",
+      "demo": "-"
     }
   }
 ]
