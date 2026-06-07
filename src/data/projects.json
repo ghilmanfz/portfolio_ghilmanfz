@@ -1,84 +1,68 @@
 [
   {
-    "slug": "rfstore",
-    "title": "RFSTORE",
-    "subtitle": "Digital Products & Top-up Marketplace",
-    "description": "Automated 24/7 digital marketplace for game top-ups, mobile credits, e-wallets, premium app subscriptions, and SMM panel services. PSE Kominfo registered with instant processing and 100% refund guarantee.",
-    "year": "2026",
-    "featured": true,
-    "featuredOrder": 3,
-    "tags": [
-      "Full Stack Development",
-      "E-Commerce",
-      "Backend Development"
-    ],
-    "techIcons": [
-      "laravel",
-      "php",
-      "mysql",
-      "javascript"
-    ],
-    "color": "#2563eb",
-    "image": "/images/projects/screenshot-3-3-2026-13332-rfstore-relabify-com-1772476436446.jpeg",
-    "logo": "/images/projects/screenshot-2026-03-03-013409-1772476466781.png",
-    "problem": "Customers needed a reliable, automated platform to purchase digital products — game credits, pulsa, e-wallet top-ups, and premium subscriptions — instantly without manual processing.",
-    "solution": "Developed a fully automated digital marketplace with instant order processing, multi-category product support (gaming, pulsa, e-wallet, premium apps, SMM panel), order status tracking, and a reseller program. Registered with PSE Kominfo for legal compliance.",
-    "screenshots": [
-      {
-        "url": "/images/projects/screenshot-3-3-2026-21955-rfstore-relabify-com-1772479240138.jpeg",
-        "caption": ""
-      },
-      {
-        "url": "/images/projects/screenshot-3-3-2026-2217-rfstore-relabify-com-1772479271616.jpeg",
-        "caption": ""
-      },
-      {
-        "url": "/images/projects/screenshot-3-3-2026-22122-rfstore-relabify-com-1772479289599.jpeg",
-        "caption": ""
-      },
-      {
-        "url": "/images/projects/screenshot-3-3-2026-22156-rfstore-relabify-com-1772479329866.jpeg",
-        "caption": ""
-      },
-      {
-        "url": "/images/projects/screenshot-3-3-2026-22317-rfstore-relabify-com-1772479401572.jpeg",
-        "caption": "API Status Checker"
-      }
-    ],
-    "links": {
-      "live": "https://rfstore.relabify.com/",
-      "github": "https://github.com/ghilmanfz/rfstore"
-    },
-    "videos": []
-  },
-  {
-    "slug": "pos-electricity",
-    "title": "POS Electricity",
-    "subtitle": "Point of Sale System for Electrical Goods Store",
-    "description": "Laravel-based POS system tailored for an electrical goods retailer. Manages product catalog, sales transactions, stock levels, and reporting to streamline daily store operations.",
+    "slug": "https://simpptq.relabify.com/",
+    "title": "SIMPPTQ",
+    "subtitle": "Pondok Pesantren Management Information System",
+    "description": "Web-based management information system for Islamic boarding schools (Pesantren Tahfidz Quran). Built using Laravel to streamline student management, teacher administration, academic activities, memorization monitoring, financial records, and reporting within a centralized platform.",
     "year": "2026",
     "featured": true,
     "featuredOrder": 1,
-    "tags": [
-      "Full Stack Development",
-      "Backend Development",
-      "ERP System"
-    ],
+    "tags": [],
     "techIcons": [
       "laravel",
       "php",
       "mysql",
-      "javascript"
+      "tailwindcss",
+      "alpine.js",
+      "javascript",
+      "html5",
+      "git"
     ],
-    "color": "#b870ff",
-    "image": "/images/projects/2-1772477526566.png",
-    "logo": "/images/projects/screenshot-2026-03-03-015309-1772477605990.png",
-    "problem": "An electrical goods store relied on manual cashiering and stock tracking, resulting in transaction errors and inaccurate inventory records.",
-    "solution": "Built a dedicated POS system with Laravel covering product management, sales transaction processing, real-time stock monitoring, and sales reporting — enabling faster and more accurate daily operations.",
-    "screenshots": [],
+    "color": "#0c2a67",
+    "image": "/images/projects/screenshot-7-6-2026-232929-simpptq-relabify-com-1780850250944.jpeg",
+    "logo": "/images/projects/logo-pptq-1780850254928.png",
+    "problem": "Many Islamic boarding schools still rely on spreadsheets and manual record keeping to manage students, teachers, tahfidz progress, attendance, finances, and academic administration. This often leads to data duplication, reporting difficulties, and inefficient operational processes.",
+    "solution": "Developed a centralized Pesantren Management Information System using Laravel. The platform digitizes student administration, tahfidz monitoring, teacher management, attendance tracking, financial records, and reporting workflows. The system improves data accuracy, operational efficiency, and accessibility for administrators and management.",
+    "screenshots": [
+      {
+        "url": "/images/projects/screenshot-7-6-2026-232929-simpptq-relabify-com-1780850551735.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-7-6-2026-232940-simpptq-relabify-com-1780850560792.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-7-6-2026-23303-simpptq-relabify-com-1780850570499.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-7-6-2026-233038-simpptq-relabify-com-1780850584625.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-7-6-2026-23416-simpptq-relabify-com-1780850620902.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-7-6-2026-233920-simpptq-relabify-com-1780850626359.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-7-6-2026-234154-simpptq-relabify-com-1780850632794.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-7-6-2026-233927-simpptq-relabify-com-1780850645944.jpeg",
+        "caption": ""
+      }
+    ],
+    "videos": [],
     "links": {
-      "live": "https://bobby.relabify.com/admin/login",
-      "github": "https://github.com/ghilmanfz/Point-Of-Sales-Electricity"
+      "live": "https://simpptq.relabify.com/",
+      "github": "https://github.com/ghilmanfz/SIMPPTQ",
+      "figma": "",
+      "demo": "https://simpptq.relabify.com/"
     }
   },
   {
@@ -137,7 +121,7 @@
     "description": "Laravel-based booking and reservation system for Nuca Beauty Skin clinic. Features treatment selection, doctor scheduling, deposit management, and WhatsApp notifications via Fonnte API.",
     "year": "2026",
     "featured": true,
-    "featuredOrder": 4,
+    "featuredOrder": 3,
     "tags": [
       "Full Stack Development",
       "Web Design",
@@ -176,6 +160,88 @@
     "links": {
       "live": "https://nuca.relabify.com/",
       "github": "https://github.com/fikri200401/nuca"
+    }
+  },
+  {
+    "slug": "rfstore",
+    "title": "RFSTORE",
+    "subtitle": "Digital Products & Top-up Marketplace",
+    "description": "Automated 24/7 digital marketplace for game top-ups, mobile credits, e-wallets, premium app subscriptions, and SMM panel services. PSE Kominfo registered with instant processing and 100% refund guarantee.",
+    "year": "2026",
+    "featured": true,
+    "featuredOrder": 3,
+    "tags": [
+      "Full Stack Development",
+      "E-Commerce",
+      "Backend Development"
+    ],
+    "techIcons": [
+      "laravel",
+      "php",
+      "mysql",
+      "javascript"
+    ],
+    "color": "#2563eb",
+    "image": "/images/projects/screenshot-3-3-2026-13332-rfstore-relabify-com-1772476436446.jpeg",
+    "logo": "/images/projects/screenshot-2026-03-03-013409-1772476466781.png",
+    "problem": "Customers needed a reliable, automated platform to purchase digital products — game credits, pulsa, e-wallet top-ups, and premium subscriptions — instantly without manual processing.",
+    "solution": "Developed a fully automated digital marketplace with instant order processing, multi-category product support (gaming, pulsa, e-wallet, premium apps, SMM panel), order status tracking, and a reseller program. Registered with PSE Kominfo for legal compliance.",
+    "screenshots": [
+      {
+        "url": "/images/projects/screenshot-3-3-2026-21955-rfstore-relabify-com-1772479240138.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-2217-rfstore-relabify-com-1772479271616.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-22122-rfstore-relabify-com-1772479289599.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-22156-rfstore-relabify-com-1772479329866.jpeg",
+        "caption": ""
+      },
+      {
+        "url": "/images/projects/screenshot-3-3-2026-22317-rfstore-relabify-com-1772479401572.jpeg",
+        "caption": "API Status Checker"
+      }
+    ],
+    "links": {
+      "live": "https://rfstore.relabify.com/",
+      "github": "https://github.com/ghilmanfz/rfstore"
+    },
+    "videos": []
+  },
+  {
+    "slug": "pos-electricity",
+    "title": "POS Electricity",
+    "subtitle": "Point of Sale System for Electrical Goods Store",
+    "description": "Laravel-based POS system tailored for an electrical goods retailer. Manages product catalog, sales transactions, stock levels, and reporting to streamline daily store operations.",
+    "year": "2026",
+    "featured": true,
+    "featuredOrder": 3,
+    "tags": [
+      "Full Stack Development",
+      "Backend Development",
+      "ERP System"
+    ],
+    "techIcons": [
+      "laravel",
+      "php",
+      "mysql",
+      "javascript"
+    ],
+    "color": "#b870ff",
+    "image": "/images/projects/2-1772477526566.png",
+    "logo": "/images/projects/screenshot-2026-03-03-015309-1772477605990.png",
+    "problem": "An electrical goods store relied on manual cashiering and stock tracking, resulting in transaction errors and inaccurate inventory records.",
+    "solution": "Built a dedicated POS system with Laravel covering product management, sales transaction processing, real-time stock monitoring, and sales reporting — enabling faster and more accurate daily operations.",
+    "screenshots": [],
+    "links": {
+      "live": "https://bobby.relabify.com/admin/login",
+      "github": "https://github.com/ghilmanfz/Point-Of-Sales-Electricity"
     }
   },
   {
