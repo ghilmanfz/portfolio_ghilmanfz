@@ -886,5 +886,34 @@
       "figma": "-",
       "demo": "-"
     }
+  },
+  {
+    "slug": "suratlabs",
+    "title": "Suratlabs",
+    "subtitle": "CV ATS Friendly Creator With AI ",
+    "description": "",
+    "year": "2026",
+    "featured": true,
+    "featuredOrder": 1,
+    "tags": [],
+    "techIcons": [],
+    "color": "#004cff",
+    "image": "/images/projects/screenshot-18-6-2026-155411-suratlabs-relabify-com-1781772983005.jpeg",
+    "logo": "",
+    "problem": "",
+    "solution": "",
+    "screenshots": [
+      {
+        "url": "/images/projects/screenshot-18-6-2026-155411-suratlabs-relabify-com-1781772904499.jpeg",
+        "caption": ""
+      }
+    ],
+    "videos": [],
+    "links": {
+      "live": "https://suratlabs.relabify.com/",
+      "github": "",
+      "figma": "",
+      "demo": "https://suratlabs.relabify.com/"
+    }
   }
 ]
