@@ -424,15 +424,10 @@ export default function ProjectDetailPage() {
         >
           <Link
             href="/work"
-            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-200"
-            style={{
-              background: "rgba(255,255,255,0.04)",
-              border: "1px solid rgba(255,255,255,0.1)",
-              color: "rgba(255,255,255,0.6)",
-            }}
+            className="btn-soft inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium"
           >
             <ArrowLeft size={15} />
-            Back To Projects
+            Back to projects
           </Link>
         </motion.div>
 
@@ -557,7 +552,7 @@ export default function ProjectDetailPage() {
                 color: "#fff",
               }}
             >
-              Visit Website <ExternalLink size={14} />
+              Visit website <ExternalLink size={14} />
             </a>
           )}
         </motion.div>

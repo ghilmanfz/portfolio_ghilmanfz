@@ -84,4 +84,36 @@ body {
   .section-divider {
     @apply w-full border-t border-white/[0.04];
   }
+
+  /* Button system — ghost (primary action) + soft (secondary / portfolio) */
+  .btn-ghost {
+    color: rgba(255, 255, 255, 0.82);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+  }
+  .btn-ghost:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.45);
+  }
+
+  .btn-soft {
+    color: rgba(255, 255, 255, 0.72);
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+  }
+  .btn-soft:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.18);
+  }
+
+  .btn-arrow svg {
+    transition: transform 0.25s ease;
+  }
+  .btn-arrow:hover svg {
+    transform: translateX(3px);
+  }
 }

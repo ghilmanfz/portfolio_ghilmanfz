@@ -214,7 +214,7 @@ function ProjectCard({ project, index, isHovered, onMouseEnter, onMouseLeave }: 
           <Link
             href={`/work/${project.slug}`}
             onClick={(e) => e.stopPropagation()}
-            className="inline-flex items-center gap-3 px-7 py-3.5 rounded-xl text-xs font-bold tracking-widest uppercase transition-all duration-300"
+            className="btn-arrow inline-flex items-center gap-3 px-7 py-3.5 rounded-xl text-sm font-semibold transition-all duration-300"
             style={
               isHovered
                 ? {
@@ -296,13 +296,9 @@ export default function FeaturedProjects() {
         <AnimateInView className="flex justify-center mt-16" delay={0.15}>
           <Link
             href="/work"
-            className="inline-flex items-center gap-2.5 px-8 py-4 rounded-full text-sm font-bold tracking-widest uppercase transition-opacity duration-300 hover:opacity-80"
-            style={{
-              background: "linear-gradient(90deg, #6366f1 0%, #8b5cf6 100%)",
-              color: "#fff",
-            }}
+            className="btn-soft btn-arrow inline-flex items-center gap-2.5 px-8 py-4 rounded-full text-sm font-semibold"
           >
-            View All Projects <ArrowRight size={15} />
+            View all projects <ArrowRight size={15} />
           </Link>
         </AnimateInView>
 

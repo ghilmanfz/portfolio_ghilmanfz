@@ -1,9 +1,10 @@
 ﻿"use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import AnimateInView from "@/components/AnimateInView";
 import { experiences, coreExpertise } from "@/data/experience";
-import { Calendar, Download } from "lucide-react";
+import { Calendar, Download, FileText } from "lucide-react";
 import { siteData } from "@/data/siteData";
 
 export default function ExperiencePage() {
@@ -36,15 +37,22 @@ export default function ExperiencePage() {
             <p className="font-mono text-gray-500 text-sm max-w-md mx-auto leading-relaxed mb-10">
               {siteData.experienceDescription}
             </p>
-            <a
-              href={siteData.resumeUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-2.5 rounded-lg text-[10px] font-bold tracking-[0.2em] uppercase transition-all duration-300 hover:border-purple-500/40 hover:text-white"
-              style={{ border: "1px solid rgba(255,255,255,0.12)", color: "rgba(255,255,255,0.4)" }}
-            >
-              <Download size={12} /> Download Resume
-            </a>
+            <div className="flex flex-wrap items-center justify-center gap-3">
+              <a
+                href={siteData.resumeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-ghost inline-flex items-center gap-2 px-6 py-2.5 rounded-lg text-xs font-semibold"
+              >
+                <Download size={13} /> Download resume
+              </a>
+              <Link
+                href="/pdf"
+                className="btn-soft inline-flex items-center gap-2 px-6 py-2.5 rounded-lg text-xs font-semibold"
+              >
+                <FileText size={13} /> Export portfolio PDF
+              </Link>
+            </div>
           </motion.div>
         </div>
       </section>

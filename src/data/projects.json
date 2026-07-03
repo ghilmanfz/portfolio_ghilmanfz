@@ -1,6 +1,6 @@
 [
   {
-    "slug": "https://simpptq.relabify.com/",
+    "slug": "simpptq",
     "title": "SIMPPTQ",
     "subtitle": "Pondok Pesantren Management Information System",
     "description": "Web-based management information system for Islamic boarding schools (Pesantren Tahfidz Quran). Built using Laravel to streamline student management, teacher administration, academic activities, memorization monitoring, financial records, and reporting within a centralized platform.",
@@ -714,40 +714,6 @@
     }
   },
   {
-    "slug": "work-order-relabify",
-    "title": " Perfect Wedding Order",
-    "subtitle": "Field Service of Wedding Order",
-    "description": "a program to Order Wedding Organizer",
-    "year": "2026",
-    "featured": false,
-    "featuredOrder": null,
-    "tags": [
-      "Full Stack Development",
-      "Backend Development",
-      "ERP System"
-    ],
-    "techIcons": [
-      "laravel",
-      "php",
-      "mysql",
-      "tailwindcss",
-      "javascript"
-    ],
-    "color": "#bf70ff",
-    "image": "/images/projects/screenshot-4-3-2026-55738-wo-relabify-com-1772578663894.jpeg",
-    "logo": "/images/projects/screenshot-2026-03-04-060031-1772578847799.png",
-    "problem": "Costumer hard to make order and choice of which one packet they need",
-    "solution": "in this program, help costumer to choice the best packet they need, and its raise up for marketing and reach more costumer",
-    "screenshots": [],
-    "videos": [],
-    "links": {
-      "live": "http://wo.relabify.com/",
-      "github": "",
-      "figma": "",
-      "demo": "http://wo.relabify.com/"
-    }
-  },
-  {
     "slug": "efin-relabify",
     "title": "eFIN",
     "subtitle": "Financial Management & Reporting System",
@@ -816,7 +782,7 @@
     }
   },
   {
-    "slug": " perfect-wedding-order",
+    "slug": "perfect-wedding-order",
     "title": " Perfect Wedding Order",
     "subtitle": "Field Service of Wedding Order",
     "description": "",

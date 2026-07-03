@@ -95,19 +95,18 @@ export default function About() {
             <div className="flex flex-wrap items-center gap-6">
               <Link
                 href="/work"
-                className="inline-flex items-center gap-2.5 px-7 py-3.5 text-white text-xs font-bold tracking-widest uppercase rounded-xl transition-opacity duration-300 hover:opacity-85"
-                style={{ background: "linear-gradient(90deg, #6366f1 0%, #8b5cf6 100%)" }}
+                className="btn-soft btn-arrow inline-flex items-center gap-2.5 px-7 py-3.5 text-sm font-semibold rounded-xl"
               >
-                View My Work <ArrowRight size={14} />
+                View my work <ArrowRight size={14} />
               </Link>
               <Link
                 href="/contact"
-                className="text-xs font-bold tracking-widest uppercase transition-colors duration-300"
+                className="text-sm font-semibold transition-colors duration-300"
                 style={{ color: "rgba(107,114,128,0.7)" }}
                 onMouseEnter={e => { (e.currentTarget as HTMLElement).style.color = "#fff"; }}
                 onMouseLeave={e => { (e.currentTarget as HTMLElement).style.color = "rgba(107,114,128,0.7)"; }}
               >
-                Get In Touch
+                Get in touch
               </Link>
             </div>
           </AnimateInView>

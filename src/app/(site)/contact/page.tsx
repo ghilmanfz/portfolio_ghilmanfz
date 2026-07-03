@@ -398,13 +398,9 @@ export default function ContactPage() {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="w-full py-4 rounded-xl font-mono text-sm font-bold uppercase tracking-widest flex items-center justify-center gap-2 transition-opacity hover:opacity-90 disabled:opacity-60"
-                    style={{
-                      background: "linear-gradient(90deg, #6366f1 0%, #7c3aed 100%)",
-                      color: "#fff",
-                    }}
+                    className="btn-ghost btn-arrow w-full py-4 rounded-xl text-sm font-semibold flex items-center justify-center gap-2 disabled:opacity-60"
                   >
-                    {loading ? "DETECTING LOCATION..." : <><span>SEND VIA WHATSAPP</span><Send size={15} /></>}
+                    {loading ? "Detecting location…" : <><span>Send via WhatsApp</span><Send size={15} /></>}
                   </button>
                 </form>
               </div>

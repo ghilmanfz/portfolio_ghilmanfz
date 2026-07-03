@@ -4,95 +4,79 @@ import { motion } from "framer-motion";
 import AnimateInView from "@/components/AnimateInView";
 import { experiences } from "@/data/experience";
 import Link from "next/link";
-import { ArrowRight, Zap, FolderOpen, Users } from "lucide-react";
+import { ArrowRight, Zap, FolderOpen, GraduationCap } from "lucide-react";
 import { Code, Server, Palette, Bot } from "lucide-react";
 import Image from "next/image";
 import { siteData } from "@/data/siteData";
 
 const stats = [
-  { icon: Zap, value: "5+", label: "Years Experience" },
-  { icon: FolderOpen, value: "9+", label: "Projects in Career" },
-  { icon: Users, value: "25+", label: "Happy Clients" },
+  { icon: Zap, value: "3+", label: "Years Experience" },
+  { icon: FolderOpen, value: "20+", label: "Projects Delivered" },
+  { icon: GraduationCap, value: "3.95", label: "GPA · Best Graduate" },
 ];
 
 const techCategories = [
   {
-    title: "Frontend Development",
-    icon: Code,
-    items: [
-      { name: "JavaScript", icon: "https://cdn.simpleicons.org/javascript" },
-      { name: "TypeScript", icon: "https://cdn.simpleicons.org/typescript" },
-      { name: "React", icon: "https://cdn.simpleicons.org/react" },
-      { name: "Next.js", icon: "https://cdn.simpleicons.org/nextdotjs/white" },
-      { name: "TanStack", icon: "https://cdn.simpleicons.org/reactquery" },
-      { name: "HTML5", icon: "https://cdn.simpleicons.org/html5" },
-      { name: "CSS3", icon: "https://cdn.simpleicons.org/css3" },
-      { name: "SCSS", icon: "https://cdn.simpleicons.org/sass" },
-      { name: "Tailwind CSS", icon: "https://cdn.simpleicons.org/tailwindcss" },
-      { name: "Bootstrap", icon: "https://cdn.simpleicons.org/bootstrap" },
-      { name: "Material UI", icon: "https://cdn.simpleicons.org/mui" },
-      { name: "Shadcn UI", icon: "https://cdn.simpleicons.org/shadcnui/white" },
-      { name: "Three.js", icon: "https://cdn.simpleicons.org/threedotjs/white" },
-      { name: "Motion", icon: "https://cdn.simpleicons.org/framer/white" },
-      { name: "GSAP", icon: "https://cdn.simpleicons.org/gsap" },
-      { name: "Expo", icon: "https://cdn.simpleicons.org/expo/white" },
-    ],
-  },
-  {
-    title: "Backend Development",
+    title: "Backend & APIs",
     icon: Server,
     items: [
+      { name: "PHP", icon: "https://cdn.simpleicons.org/php" },
+      { name: "Laravel", icon: "https://cdn.simpleicons.org/laravel" },
+      { name: "CodeIgniter", icon: "https://cdn.simpleicons.org/codeigniter" },
+      { name: "REST API", icon: "https://cdn.simpleicons.org/postman" },
       { name: "Node.js", icon: "https://cdn.simpleicons.org/nodedotjs" },
       { name: "Express", icon: "https://cdn.simpleicons.org/express/white" },
-      { name: "MongoDB", icon: "https://cdn.simpleicons.org/mongodb" },
-      { name: "PostgreSQL", icon: "https://cdn.simpleicons.org/postgresql" },
-      { name: "Firebase", icon: "https://cdn.simpleicons.org/firebase" },
-      { name: "Drizzle", icon: "https://cdn.simpleicons.org/drizzle" },
-      { name: "Docker", icon: "https://cdn.simpleicons.org/docker" },
-      { name: "AWS", icon: "https://cdn.simpleicons.org/amazonwebservices/white" },
     ],
   },
   {
-    title: "Design",
+    title: "Database & Infrastructure",
+    icon: Code,
+    items: [
+      { name: "MySQL", icon: "https://cdn.simpleicons.org/mysql" },
+      { name: "Oracle", icon: "https://cdn.simpleicons.org/oracle" },
+      { name: "PostgreSQL", icon: "https://cdn.simpleicons.org/postgresql" },
+      { name: "Redis", icon: "https://cdn.simpleicons.org/redis" },
+      { name: "Docker", icon: "https://cdn.simpleicons.org/docker" },
+    ],
+  },
+  {
+    title: "Frontend & Design",
     icon: Palette,
     items: [
+      { name: "JavaScript", icon: "https://cdn.simpleicons.org/javascript" },
+      { name: "React", icon: "https://cdn.simpleicons.org/react" },
+      { name: "Tailwind CSS", icon: "https://cdn.simpleicons.org/tailwindcss" },
+      { name: "Bootstrap", icon: "https://cdn.simpleicons.org/bootstrap" },
       { name: "Figma", icon: "https://cdn.simpleicons.org/figma" },
-      { name: "Adobe Photoshop", icon: "https://cdn.simpleicons.org/adobephotoshop" },
-      { name: "Adobe Illustrator", icon: "https://cdn.simpleicons.org/adobeillustrator" },
-      { name: "Adobe XD", icon: "https://cdn.simpleicons.org/adobexd" },
-      { name: "Canva", icon: "https://cdn.simpleicons.org/canva" },
-      { name: "Webflow", icon: "https://cdn.simpleicons.org/webflow" },
-      { name: "WordPress", icon: "https://cdn.simpleicons.org/wordpress" },
-      { name: "Wix", icon: "https://cdn.simpleicons.org/wix/white" },
-      { name: "Elementor", icon: "https://cdn.simpleicons.org/elementor" },
     ],
   },
   {
-    title: "AI & Automation",
+    title: "Tools & Automation",
     icon: Bot,
     items: [
-      { name: "ChatGPT", icon: "https://cdn.simpleicons.org/openai/white" },
-      { name: "Claude", icon: "https://cdn.simpleicons.org/anthropic/white" },
-      { name: "Zapier", icon: "https://cdn.simpleicons.org/zapier" },
+      { name: "n8n", icon: "https://cdn.simpleicons.org/n8n" },
+      { name: "GitHub", icon: "https://cdn.simpleicons.org/github/white" },
+      { name: "Postman", icon: "https://cdn.simpleicons.org/postman" },
+      { name: "VS Code", icon: "https://cdn.simpleicons.org/visualstudiocode" },
     ],
   },
 ];
 
 const values = [
   {
-    icon: Code,
-    title: "Design Excellence",
-    desc: "Every pixel matters. I combine aesthetic sensibility with functional design to create visually stunning experiences.",
-  },
-  {
     icon: Server,
-    title: "Clean Code",
-    desc: "Readable, maintainable, and performant code is the foundation of every successful project.",
+    title: "Clean Architecture",
+    desc: "I build modular, maintainable systems — clear separation of concerns, service layers, and code the next developer can actually read.",
   },
   {
     icon: Zap,
-    title: "Innovation",
-    desc: "Staying ahead of the curve with the latest technologies and best practices to set development.",
+    title: "Performance That Ships",
+    desc: "Real optimization, not guesswork: indexing, query tuning, and caching that cut API latency by up to 56% in production.",
+  },
+  {
+    icon: Code,
+    title: "End-to-End Ownership",
+    desc: "From requirements and database design to deployment — I take features the whole way and make sure they hold up in the real world.",
   },
 ];
 
@@ -203,21 +187,18 @@ export default function AboutPage() {
               <div className="flex flex-wrap items-center gap-6">
                 <Link
                   href="/work"
-                  className="inline-flex items-center gap-2.5 px-7 py-3.5 text-white text-xs font-bold tracking-widest uppercase rounded-xl transition-all duration-300"
-                  style={{ background: "linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)" }}
-                  onMouseEnter={e => { (e.currentTarget as HTMLElement).style.opacity = "0.85"; }}
-                  onMouseLeave={e => { (e.currentTarget as HTMLElement).style.opacity = "1"; }}
+                  className="btn-soft btn-arrow inline-flex items-center gap-2.5 px-7 py-3.5 text-sm font-semibold rounded-xl"
                 >
-                  View My Work <ArrowRight size={14} />
+                  View my work <ArrowRight size={14} />
                 </Link>
                 <Link
                   href="/contact"
-                  className="text-xs font-bold tracking-widest uppercase transition-colors"
+                  className="text-sm font-semibold transition-colors"
                   style={{ color: "rgba(107,114,128,0.7)" }}
                   onMouseEnter={e => { (e.currentTarget as HTMLElement).style.color = "#fff"; }}
                   onMouseLeave={e => { (e.currentTarget as HTMLElement).style.color = "rgba(107,114,128,0.7)"; }}
                 >
-                  Get In Touch
+                  Get in touch
                 </Link>
               </div>
             </motion.div>
@@ -287,9 +268,9 @@ export default function AboutPage() {
                 <div className="flex flex-col items-center text-center gap-4">
                   <div
                     className="w-14 h-14 rounded-2xl flex items-center justify-center"
-                    style={{ background: "linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)" }}
+                    style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)" }}
                   >
-                    <stat.icon size={24} className="text-white" />
+                    <stat.icon size={22} className="text-gray-300" />
                   </div>
                   <div className="text-5xl font-black text-white">{stat.value}</div>
                   <div className="text-gray-500 text-sm">{stat.label}</div>
@@ -307,18 +288,18 @@ export default function AboutPage() {
             <span className="section-label">My Story</span>
           </AnimateInView>
           <AnimateInView className="mb-12" delay={0.05}>
-            <GradientTitle line1="From Design to" line2="Development" />
+            <GradientTitle line1="From Systems to" line2="Solutions" />
           </AnimateInView>
           <AnimateInView delay={0.1}>
             <div className="space-y-4 text-gray-500 text-sm leading-relaxed font-mono text-left">
               <p>
-                My journey began in Baton Rouge, Louisiana, where I discovered my passion for visual storytelling through Graphic Design and Animation. This creative foundation gave me a unique perspective on user experience and visual communication.
+                I studied Information Systems at Pamulang University, where I graduated as Best Graduate with a 3.95 GPA. That background taught me to see software as a whole system — data, processes, and the people who actually use it — not just the code.
               </p>
               <p>
-                Over the past 5 years, I&apos;ve transitioned from pure design work to Frontend Development, combining my artistic eye with technical expertise. This dual background allows me to create websites that are not only visually stunning but also performant and user-friendly.
+                Over the past 3+ years I&apos;ve built web applications and ERP systems across the manufacturing, logistics, and education sectors, mostly with Laravel, RESTful APIs, and MySQL. Along the way I&apos;ve cut API latency by up to 56%, improved process efficiency by up to 80%, and helped keep production systems at 99.7% uptime.
               </p>
               <p>
-                Today, based in Phoenix, Arizona, I specialize in building modern web applications using React, Next.js, and Tailwind CSS. Every project is an opportunity to push boundaries, solve complex problems, and deliver digital experiences that make a real impact.
+                Today I&apos;m based in Depok, West Java, focused on building reliable, efficient end-to-end systems — from database design and API architecture to the front-end that ties it all together.
               </p>
             </div>
           </AnimateInView>
@@ -335,7 +316,7 @@ export default function AboutPage() {
             <GradientTitle line1="Tools &" line2="Technologies" />
           </AnimateInView>
           <AnimateInView className="text-center mb-16" delay={0.1}>
-            <p className="font-mono text-gray-500 text-sm max-w-sm mx-auto">A super-diverse toolkit for building modern, scalable web applications.</p>
+            <p className="font-mono text-gray-500 text-sm max-w-sm mx-auto">The stack I use day to day to build and ship production systems.</p>
           </AnimateInView>
 
           <div className="space-y-10">
@@ -412,9 +393,9 @@ export default function AboutPage() {
 
           <AnimateInView className="text-center mt-10">
             <Link href="/experience"
-              className="inline-flex items-center gap-2 px-8 py-3 rounded-xl text-xs font-bold tracking-widest uppercase border border-white/10 hover:border-purple-500/40 text-gray-300 hover:text-white transition-all duration-300"
+              className="btn-soft btn-arrow inline-flex items-center gap-2 px-8 py-3 rounded-xl text-sm font-semibold"
             >
-              View Full Experience <ArrowRight size={14} />
+              View full experience <ArrowRight size={14} />
             </Link>
           </AnimateInView>
         </div>
@@ -433,12 +414,12 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {values.map((v, i) => (
               <AnimateInView key={v.title} delay={i * 0.08}>
-                <div className="glass-card p-7 text-center h-full hover:border-purple-500/20 transition-all duration-300 group">
+                <div className="glass-card p-7 text-center h-full hover:border-white/15 transition-all duration-300">
                   <div
-                    className="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-5 group-hover:scale-110 transition-transform duration-300"
-                    style={{ background: "linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)" }}
+                    className="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-5"
+                    style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)" }}
                   >
-                    <v.icon size={22} className="text-white" />
+                    <v.icon size={22} className="text-gray-300" />
                   </div>
                   <h3 className="font-bold text-base mb-2 text-white">{v.title}</h3>
                   <p className="text-gray-500 text-xs leading-relaxed">{v.desc}</p>
@@ -474,15 +455,12 @@ export default function AboutPage() {
             <div className="flex flex-wrap justify-center items-center gap-6">
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2.5 px-8 py-3.5 text-white text-xs font-bold tracking-widest uppercase rounded-xl transition-all duration-300"
-                style={{ background: "linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)" }}
-                onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = "linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%)"; }}
-                onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = "linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)"; }}
+                className="btn-ghost btn-arrow inline-flex items-center gap-2.5 px-8 py-3.5 text-sm font-semibold rounded-xl"
               >
-                Start A Project <ArrowRight size={14} />
+                Start a project <ArrowRight size={14} />
               </Link>
-              <Link href="/contact" className="text-gray-400 hover:text-white text-xs font-bold tracking-widest uppercase transition-colors">
-                Get In Touch
+              <Link href="/contact" className="text-gray-400 hover:text-white text-sm font-semibold transition-colors">
+                Get in touch
               </Link>
             </div>
           </AnimateInView>

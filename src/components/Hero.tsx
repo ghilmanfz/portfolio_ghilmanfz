@@ -110,31 +110,15 @@ export default function Hero() {
           {/* START PROJECT — gradient biru→ungu, rounded-xl */}
           <Link
             href={siteData.heroCTAPrimary.href}
-            className="inline-flex items-center gap-2.5 px-9 py-4 text-white text-xs font-bold tracking-[0.18em] uppercase rounded-xl transition-all duration-300 hover:opacity-88"
-            style={{
-              background: "linear-gradient(90deg, #6366f1 0%, #8b5cf6 100%)",
-            }}
+            className="btn-ghost btn-arrow inline-flex items-center gap-2.5 px-9 py-4 text-sm font-semibold rounded-xl"
           >
             {siteData.heroCTAPrimary.label}
             <ArrowRight size={14} />
           </Link>
-          {/* PORTFOLIO — border, rounded-xl, abu-abu */}
+          {/* PORTFOLIO — soft fill, rounded-xl */}
           <Link
             href={siteData.heroCTASecondary.href}
-            className="inline-flex items-center px-9 py-4 text-xs font-bold tracking-[0.18em] uppercase rounded-xl transition-all duration-300"
-            style={{
-              background: "rgba(255,255,255,0.04)",
-              border: "1px solid rgba(255,255,255,0.12)",
-              color: "rgba(156,163,175,0.85)",
-            }}
-            onMouseEnter={e => {
-              (e.currentTarget as HTMLElement).style.borderColor = "rgba(255,255,255,0.25)";
-              (e.currentTarget as HTMLElement).style.color = "#fff";
-            }}
-            onMouseLeave={e => {
-              (e.currentTarget as HTMLElement).style.borderColor = "rgba(255,255,255,0.12)";
-              (e.currentTarget as HTMLElement).style.color = "rgba(156,163,175,0.85)";
-            }}
+            className="btn-soft inline-flex items-center px-9 py-4 text-sm font-semibold rounded-xl"
           >
             {siteData.heroCTASecondary.label}
           </Link>

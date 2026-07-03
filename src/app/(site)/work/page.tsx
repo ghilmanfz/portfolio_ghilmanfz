@@ -213,7 +213,7 @@ function ProjectCard({ project }: { project: Project }) {
             className="font-mono text-[13px] font-medium inline-flex items-center gap-1.5"
             style={{ color: project.color }}
           >
-            View Project <ArrowRight size={13} />
+            View project <ArrowRight size={13} />
           </span>
         </div>
       </div>

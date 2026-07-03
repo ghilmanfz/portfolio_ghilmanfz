@@ -1032,7 +1032,7 @@ function ProjectForm({ initial, onSave, onCancel }: { initial: Project; onSave: 
         <Input label="Demo URL" value={p.links?.demo ?? ""} mono onChange={(v) => setLink("demo", v)} placeholder="https://..." />
       </div>
       <div className="flex gap-3 pt-2">
-        <button onClick={() => onSave({ ...p, slug: p.slug || slugify(p.title) })} disabled={!p.title}
+        <button onClick={() => onSave({ ...p, slug: slugify(p.slug || p.title) })} disabled={!p.title}
           className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-bold tracking-widest uppercase disabled:opacity-40"
           style={{ background: "linear-gradient(90deg,#6366f1,#8b5cf6)", color: "#fff" }}>
           <Save size={15} /> Save Project

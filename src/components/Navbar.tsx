@@ -35,14 +35,15 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 px-6 pt-5">
       <nav
-        className={`max-w-7xl mx-auto flex items-center justify-between px-7 py-3.5 rounded-2xl border transition-all duration-500 ${
-          isScrolled
-            ? "backdrop-blur-xl shadow-2xl shadow-black/40"
-            : "backdrop-blur-lg"
-        }`}
+        className="max-w-7xl mx-auto flex items-center justify-between px-7 py-3.5 rounded-2xl border transition-all duration-500"
         style={{
-          background: isScrolled ? "rgba(13,13,26,0.92)" : "rgba(13,13,26,0.75)",
-          borderColor: "rgba(255,255,255,0.07)",
+          background: isScrolled ? "rgba(13,13,26,0.55)" : "rgba(17,18,32,0.4)",
+          backdropFilter: isScrolled ? "blur(24px) saturate(180%)" : "blur(18px) saturate(160%)",
+          WebkitBackdropFilter: isScrolled ? "blur(24px) saturate(180%)" : "blur(18px) saturate(160%)",
+          borderColor: isScrolled ? "rgba(255,255,255,0.15)" : "rgba(255,255,255,0.1)",
+          boxShadow: isScrolled
+            ? "0 12px 40px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.13)"
+            : "0 8px 30px rgba(0,0,0,0.28), inset 0 1px 0 rgba(255,255,255,0.09)",
         }}
       >
         {/* Logo */}
@@ -113,20 +114,9 @@ export default function Navbar() {
           <div className="w-px h-5 mx-1" style={{ background: "rgba(255,255,255,0.1)" }} />
           <Link
             href="/contact"
-            className="px-5 py-2 text-white text-[11px] tracking-[0.15em] font-semibold rounded-full transition-all"
-            style={{
-              border: "1px solid rgba(255,255,255,0.15)",
-            }}
-            onMouseEnter={(e) => {
-              (e.currentTarget as HTMLAnchorElement).style.borderColor = "rgba(168,85,247,0.5)";
-              (e.currentTarget as HTMLAnchorElement).style.background = "rgba(255,255,255,0.04)";
-            }}
-            onMouseLeave={(e) => {
-              (e.currentTarget as HTMLAnchorElement).style.borderColor = "rgba(255,255,255,0.15)";
-              (e.currentTarget as HTMLAnchorElement).style.background = "transparent";
-            }}
+            className="btn-ghost px-5 py-2 text-[13px] font-semibold rounded-full"
           >
-            HIRE ME
+            Hire me
           </Link>
         </div>
 
@@ -147,7 +137,14 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden max-w-6xl mx-auto mt-1 rounded-2xl bg-[#12121a]/95 backdrop-blur-xl border border-white/[0.06] overflow-hidden"
+            className="lg:hidden max-w-6xl mx-auto mt-1 rounded-2xl border overflow-hidden"
+            style={{
+              background: "rgba(18,18,28,0.6)",
+              borderColor: "rgba(255,255,255,0.1)",
+              backdropFilter: "blur(24px) saturate(180%)",
+              WebkitBackdropFilter: "blur(24px) saturate(180%)",
+              boxShadow: "0 16px 40px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.08)",
+            }}
           >
             <div className="px-6 py-6 flex flex-col gap-1">
               {navLinks.map((link) => (
@@ -179,9 +176,9 @@ export default function Navbar() {
               <Link
                 href="/contact"
                 onClick={() => setIsMobileOpen(false)}
-                className="mt-4 py-3 border border-white/10 text-white text-sm font-semibold rounded-full text-center hover:bg-white/5 transition-colors"
+                className="btn-ghost mt-4 py-3 rounded-full text-sm font-semibold text-center"
               >
-                HIRE ME
+                Hire me
               </Link>
             </div>
           </motion.div>
