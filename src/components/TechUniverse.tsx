@@ -31,7 +31,7 @@ export default function TechUniverse() {
 
         <AnimateInView className="text-center mb-20" delay={0.1}>
           <p className="font-mono text-gray-500 text-sm max-w-md mx-auto leading-relaxed">
-            Navigating the digital space with a robust constellation of technologies, frameworks, and tools designed for scalability and performance.
+            The stack I use day to day to build, ship, and maintain web apps and ERP systems.
           </p>
         </AnimateInView>
 
@@ -47,7 +47,7 @@ export default function TechUniverse() {
                   {category.items.map((item) => (
                     <div
                       key={item.name}
-                      className="flex flex-col items-center gap-3 p-5 rounded-xl bg-white/[0.03] border border-white/[0.06] hover:border-purple-500/30 hover:bg-white/[0.07] transition-all duration-300 cursor-default group"
+                      className="flex flex-col items-center gap-3 p-5 rounded-xl bg-white/[0.03] border border-white/[0.06] hover:border-white/15 hover:bg-white/[0.07] transition-all duration-300 cursor-default group"
                     >
                       <div className="w-10 h-10 relative flex items-center justify-center">
                         <Image

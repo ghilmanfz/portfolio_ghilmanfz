@@ -273,7 +273,7 @@ export default function FeaturedProjects() {
 
         <AnimateInView className="text-center mb-20" delay={0.1}>
           <p className="font-mono text-sm max-w-md mx-auto leading-relaxed" style={{ color: "rgba(255,255,255,0.22)" }}>
-            Success stories from clients who trusted my expertise to bring their vision to life.
+            A selection of the systems I&apos;ve designed, built, and shipped.
           </p>
         </AnimateInView>
 

@@ -41,7 +41,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-gray-500 text-sm leading-relaxed max-w-xs">
-              Designing and developing premium web experiences that drive results.
+              Full-stack developer building web apps and ERP systems with Laravel, React, and a focus on clean, reliable delivery.
             </p>
           </div>
 
@@ -84,7 +84,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} {siteData.name}. All rights reserved.
           </p>
           <p className="text-xs text-gray-600">
-            Designed & Developed with passion
+            Built with Next.js and Tailwind CSS
           </p>
         </div>
       </div>

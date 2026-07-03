@@ -35,7 +35,7 @@ export default function Services() {
 
         <AnimateInView className="text-center mb-16" delay={0.1}>
           <p className="font-mono text-gray-500 text-sm max-w-sm mx-auto leading-relaxed">
-            Expert solutions crafted with precision and innovation
+            What I build for clients — from ERP systems and APIs to automation
           </p>
         </AnimateInView>
 
@@ -44,14 +44,15 @@ export default function Services() {
             const Icon = iconMap[service.icon];
             return (
               <AnimateInView key={service.title} delay={i * 0.08}>
-                <div className="glass-card p-8 h-full flex flex-col items-center text-center hover:border-purple-500/20 transition-all duration-300 group">
+                <div className="glass-card p-8 h-full flex flex-col items-center text-center hover:border-white/15 transition-all duration-300">
                   <div
-                    className="w-14 h-14 rounded-2xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300"
+                    className="w-14 h-14 rounded-2xl flex items-center justify-center mb-5"
                     style={{
-                      background: "linear-gradient(135deg, #7C3AED 0%, #4F46E5 100%)",
+                      background: "rgba(255,255,255,0.05)",
+                      border: "1px solid rgba(255,255,255,0.1)",
                     }}
                   >
-                    {Icon && <Icon size={24} className="text-white" />}
+                    {Icon && <Icon size={24} className="text-gray-300" />}
                   </div>
                   <h3 className="text-base font-bold mb-3 text-white">{service.title}</h3>
                   <p className="text-gray-500 text-xs leading-relaxed">{service.description}</p>
