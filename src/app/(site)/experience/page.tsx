@@ -76,7 +76,7 @@ export default function ExperiencePage() {
                       {/* gradient square bullet */}
                       <span
                         className="shrink-0 w-2.5 h-2.5 rounded-sm"
-                        style={{ background: "linear-gradient(135deg, #3b82f6, #8b5cf6)", marginTop: "3px" }}
+                        style={{ background: "rgba(255,255,255,0.3)", marginTop: "3px" }}
                       />
                       <h3 className="text-lg font-black text-white leading-tight">{exp.title}</h3>
                     </div>
@@ -99,7 +99,7 @@ export default function ExperiencePage() {
                     {/* colored dot before company */}
                     <span
                       className="w-2 h-2 rounded-full shrink-0"
-                      style={{ background: "linear-gradient(135deg, #3b82f6, #6366f1)" }}
+                      style={{ background: "rgba(255,255,255,0.25)" }}
                     />
                     <span className="text-sm font-medium" style={{ color: "#60a5fa" }}>{exp.company}</span>
                     <span

@@ -241,8 +241,8 @@ export default function AboutPage() {
                   }}
                 >
                   <div
-                    className="w-28 h-28 rounded-full flex items-center justify-center text-4xl font-black"
-                    style={{ background: "linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)" }}
+                    className="w-28 h-28 rounded-full flex items-center justify-center text-4xl font-black text-white"
+                    style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)" }}
                   >
                     {siteData.firstName[0]}
                   </div>

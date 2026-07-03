@@ -1,0 +1,3 @@
+{"type":"server-started","port":62187,"host":"127.0.0.1","url_host":"localhost","url":"http://localhost:62187","screen_dir":"C:\\Users\\us\\Downloads\\portfolio\\.superpowers\\brainstorm\\codex-23680-1783064332\\content","state_dir":"C:\\Users\\us\\Downloads\\portfolio\\.superpowers\\brainstorm\\codex-23680-1783064332\\state"}
+{"type":"screen-added","file":"C:\\Users\\us\\Downloads\\portfolio\\.superpowers\\brainstorm\\codex-23680-1783064332\\content\\waiting-portfolio-project.html"}
+{"type":"server-stopped","reason":"idle timeout"}

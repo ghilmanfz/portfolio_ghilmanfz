@@ -145,9 +145,9 @@ export default function ContactForm() {
             >
               <div
                 className="w-11 h-11 rounded-xl flex items-center justify-center shrink-0"
-                style={{ background: "#6366f1" }}
+                style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)" }}
               >
-                <Mail size={18} color="#fff" />
+                <Mail size={18} color="#d1d5db" />
               </div>
               <div>
                 <p className="font-mono text-[10px] font-semibold uppercase tracking-widest mb-0.5"

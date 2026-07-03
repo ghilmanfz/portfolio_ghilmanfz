@@ -121,7 +121,7 @@
     "description": "Laravel-based booking and reservation system for Nuca Beauty Skin clinic. Features treatment selection, doctor scheduling, deposit management, and WhatsApp notifications via Fonnte API.",
     "year": "2026",
     "featured": true,
-    "featuredOrder": 3,
+    "featuredOrder": 6,
     "tags": [
       "Full Stack Development",
       "Web Design",
@@ -221,7 +221,7 @@
     "description": "Laravel-based POS system tailored for an electrical goods retailer. Manages product catalog, sales transactions, stock levels, and reporting to streamline daily store operations.",
     "year": "2026",
     "featured": true,
-    "featuredOrder": 3,
+    "featuredOrder": 4,
     "tags": [
       "Full Stack Development",
       "Backend Development",
@@ -293,6 +293,45 @@
     "links": {
       "live": "https://virtualtour.relabify.com/",
       "github": "https://github.com/ghilmanfz/Virtual-Tour-University"
+    }
+  },
+  {
+    "slug": "deposit-counter",
+    "title": "Deposit Counter",
+    "subtitle": "Warehouse Deposit & Client Inventory Management System",
+    "description": "Web-based warehouse deposit management system built with PHP Native and MySQL/MariaDB. This system helps warehouse operators manage deposited goods, client-based inventory, stock movements, pickup requests, delivery orders, billing, invoices, and operational reports through one centralized platform.",
+    "year": "2026",
+    "featured": true,
+    "featuredOrder": 7,
+    "tags": [
+      "PHP",
+      "MySQL",
+      "JavaScript",
+      "Git",
+      "phpMyAdmin"
+    ],
+    "techIcons": [
+      "PHP",
+      "MySQL",
+      "Bootstrap",
+      "JavaScript",
+      "HTML5",
+      "Git",
+      "Laragon",
+      "phpMyAdmin"
+    ],
+    "color": "#0b1c3c",
+    "image": "/images/projects/screenshot-3-7-2026-144924-inventory-relabify-com-1783065000779.jpeg",
+    "logo": "",
+    "problem": "Warehouse deposit operations often require manual tracking for incoming goods, client inventory, pickup requests, delivery orders, billing, and reports. Without a centralized system, staff may face difficulties in tracking stock movement, separating client-owned goods, managing proof documents, and monitoring payment status accurately.",
+    "solution": "Developed a web-based warehouse deposit management system using PHP Native and MySQL/MariaDB. The platform provides internal dashboards for admin/staff and a client dashboard for client access. It supports deposited goods management, stock movement history, defective item records with photo evidence, pickup request approval, delivery order processing, invoice management, and daily/monthly withdrawal reports.",
+    "screenshots": [],
+    "videos": [],
+    "links": {
+      "live": "https://inventory.relabify.com/",
+      "github": "github.com/ghilmanfz/deposit-counter",
+      "figma": "",
+      "demo": "https://inventory.relabify.com/"
     }
   },
   {
@@ -821,7 +860,7 @@
     "subtitle": "",
     "description": "This program is a WhatsApp-based project management bot that uses Google Sheets as the main database, Google Apps Script as the automation engine, Fonnte as the WhatsApp API gateway, and OpenRouter as a lightweight AI parser. It manages projects, subtasks, payments, links, users, confirmations, audit logs, settings, and daily reports. The system lets teams operate from WhatsApp while keeping structured project data in Google Sheets.",
     "year": "2026",
-    "featured": true,
+    "featured": false,
     "featuredOrder": 6,
     "tags": [
       "Fonnte webhook",
