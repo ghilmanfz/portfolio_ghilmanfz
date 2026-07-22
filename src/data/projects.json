@@ -920,5 +920,51 @@
       "figma": "",
       "demo": "https://suratlabs.relabify.com/"
     }
+  },
+  {
+    "slug": "e-rapor-bimba-aiueo",
+    "title": "E-Rapor BiMBA AIUEO",
+    "subtitle": "Digital Learning Progress & Report Management System",
+    "description": "Web-based digital report and student learning progress management system designed for BiMBA AIUEO. The platform connects administrators, teachers or motivators, and parents in one centralized system for managing student data, recording K/B/P/T assessments, monitoring progress charts, generating digital reports, and accessing report history online.",
+    "year": "2026",
+    "featured": true,
+    "featuredOrder": 6,
+    "tags": [
+      "Full Stack Development",
+      "Backend Development",
+      "Web Design",
+      "Education Technology",
+      "Information System"
+    ],
+    "techIcons": [
+      "laravel",
+      "php",
+      "blade",
+      "tailwind.css",
+      "alpine.js",
+      "chart.js",
+      "vite",
+      "javascript",
+      "html5",
+      "git"
+    ],
+    "color": "#fffa70",
+    "image": "/images/projects/screenshot-2026-07-22-161323-1784711682389.png",
+    "logo": "/images/projects/whatsapp-image-2026-05-15-at-23-40-32-1784711658700.jpeg",
+    "problem": "Role-based digital report system for managing student data, K/B/P/T assessments, learning progress charts, PDF reports, and parent access in one centralized platform.",
+    "solution": "Built a role-based web application using Laravel 11 and PHP 8.2 with separate workflows for Admin, Teacher or Motivator, and Parent users. The system provides centralized student, teacher, parent, user, and classroom management; K/B/P/T progress assessments; interactive development charts; notifications; report history; teacher notes; and printable PDF reports with QR-code-based download access. The responsive interface was developed using Blade, Tailwind CSS, Alpine.js, Chart.js, and Vite.",
+    "screenshots": [
+      {
+        "url": "",
+        "caption": ""
+      }
+    ],
+    "videos": [],
+    "links": {
+      "live": "https://raportbimba.relabify.com/",
+      "github": "https://github.com/ghilmanfz/Raport-Bimba-AIUEO",
+      "figma": "",
+      "demo": "https://raportbimba.relabify.com/login"
+    }
   }
 ]
