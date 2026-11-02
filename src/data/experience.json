@@ -52,6 +52,17 @@
         "Built a student point system for 300+ students, increasing data transparency by 90%.",
         "Streamlined student administration processes by up to 70% through the point system."
       ]
+    },
+    {
+      "title": "IT Staff Programmer",
+      "company": "PT. Armindo Perkasa",
+      "type": "CONTRACT",
+      "period": "July 2026 - Now",
+      "highlights": [
+        "- Integrated DMS APIs across 4 dealer codes, consolidating operational data into 2 SQL Server database.",
+        "- Automated GSO synchronization using Laravel Scheduler, processing morethan 10.000 Work Orders per month.",
+        "- Developed 3 program, handling production troubleshooting, configuration and connectivity  "
+      ]
     }
   ],
   "coreExpertise": [
